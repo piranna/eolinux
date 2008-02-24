@@ -19,6 +19,8 @@ Fases a completar en la realizacion de EOLinux
 
 * Distribuir imagen de disco actualizada
 
+* Traducir script de instalacion y arreglarlo haciendolo mas intuitivo y explicativo
+
 * Hacer un repositorio con nuestras compilaciones
 
 * Eliminar elementos innecesarios del kernel
