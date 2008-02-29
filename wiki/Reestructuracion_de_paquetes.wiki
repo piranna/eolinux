@@ -26,20 +26,20 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
 == Elimininacion ==
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
-|| *Paquete* || *Descripcion* || *Estado* || *Dependencias* || *Notas* ||
-|| aalib1 || ascii art library ||  || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
-|| atlas3-base || Automatically Tuned Linear Algebra Software, generic shared||  ||  ||
-|| bc || The GNU bc arbritary precision calculator language||  ||  ||
-|| bin86 || 16-bit x86 assembler and loader||  ||  ||
-|| bind9-host || Version of 'host' bundled with BIND 9.X||  ||  ||
-|| cdrecord || command line CD writing tool || || ||
-|| cpp || The GNU C preprocessor (cpp) || || ||
-|| cpp-3.3 || The GNU C preprocessor || || ||
-|| cvs || Concurrent Versions System || || ||
-|| ed || The classic unix text editor || || ||
-|| lpr || BSD lpr/lpd line printer spooling system || Purgado || ||
-|| nfs-common || NFS support files common to client and server || || ||
-|| ppp || Point-to-Point Protocol (PPP) daemon || || ||
-|| pppconfig || A text menu based utility for configuring PPP || || ||
-|| pppoe || PPP over Ethernet driver || || ||
-|| pppoeconf || configures PPPoE/ADSL connections || || ||
+|| *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
+|| aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
+|| atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| python2.3-numeric-ext, python2.3-pygame ||  ||
+|| bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
+|| bin86 || 16-bit x86 assembler and loader||  ||  || ||
+|| bind9-host || Version of 'host' bundled with BIND 9.X||  ||  || ||
+|| cdrecord || command line CD writing tool || || || ||
+|| cpp || The GNU C preprocessor (cpp) || || || ||
+|| cpp-3.3 || The GNU C preprocessor || || || ||
+|| cvs || Concurrent Versions System || || || ||
+|| ed || The classic unix text editor || || || ||
+|| lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
+|| nfs-common || NFS support files common to client and server || || || ||
+|| ppp || Point-to-Point Protocol (PPP) daemon || || || ||
+|| pppconfig || A text menu based utility for configuring PPP || || || ||
+|| pppoe || PPP over Ethernet driver || || || ||
+|| pppoeconf || configures PPPoE/ADSL connections || || || ||
