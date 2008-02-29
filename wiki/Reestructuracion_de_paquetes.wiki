@@ -17,4 +17,9 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
 == Elimininacion ==
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
-* aalib1: ascii art library
+|| *Paquete* || *Descripcion* || *Estado* ||
+|| aalib1 || ascii art library ||  ||
+|| atlas3-base || Automatically Tuned Linear Algebra Software, generic shared||  ||
+|| bc || The GNU bc arbritary precision calculator language||  ||
+|| bin86 || 16-bit x86 assembler and loader||  ||
+|| bind9-host || Version of 'host' bundled with BIND 9.X||  ||
