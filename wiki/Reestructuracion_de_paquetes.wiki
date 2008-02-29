@@ -33,14 +33,21 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
 || bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
+|| bison || A parser generator that is compatible with YACC || Purgado || || ||
 || cdrecord || command line CD writing tool || Purgado || || ||
 || cpp || The GNU C preprocessor (cpp) || || || ||
 || cpp-3.3 || The GNU C preprocessor || || || ||
 || cvs || Concurrent Versions System || Purgado || || ||
 || ed || The classic unix text editor || || debmake || ||
+|| flex || A fast lexical analyzer generator. || Purgado || || ||
 || iamerican || An American English dictionary for ispell || || || ||
-|| ibritish || || A British English dictionary for ispell || || || ||
+|| ibritish || A British English dictionary for ispell || || || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
+|| lynx || Text-mode WWW Browser || Purgado || || ||
+|| m4 || a macro processing language || Purgado || bison, flex || ||
+|| mailx || A simple mail user agent || Purgado || || ||
+|| manpages || Manual pages about using a GNU/Linux system || Purgado || || ||
+|| manpages-dev || Manual pages about using GNU/Linux for development || Purgado || || ||
 || mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
 || nvi || 4.4BSD re-implementation of vi || Purgado || || ||
