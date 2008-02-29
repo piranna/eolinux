@@ -12,12 +12,13 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
 
 || *Paquete* || *Descripcion* || *Estado* || *Notas* ||
+|| ispanish || || || ||
 
 == Metapaquetes ==
 Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
 
 || *Paquete* || *Descripcion* || *Estado* || *Dependencias* || *Notas* ||
-|| mozilla-firefox || lightweight web browser based on Mozilla || || || Hace falta uno mas "ligero" ||
+|| mozilla-firefox || lightweight web browser based on Mozilla || Purgado || || Hace falta uno mas "ligero" ||
 || freevo || A Python based PVR/DVR Framework for Music and Movies || Purgado || || ||
 || freevo-media || Themes and non-application data for Freevo || Purgado || || ||
 || mplayer-386 || The Ultimate Movie Player for Linux || Purgado || || ||
@@ -37,14 +38,16 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || cpp-3.3 || The GNU C preprocessor || || || ||
 || cvs || Concurrent Versions System || Purgado || || ||
 || ed || The classic unix text editor || || debmake || ||
+|| iamerican || An American English dictionary for ispell || || || ||
+|| ibritish || || A British English dictionary for ispell || || || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
-|| mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || || || ||
+|| mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
-|| nvi || 4.4BSD re-implementation of vi || || || ||
+|| nvi || 4.4BSD re-implementation of vi || Purgado || || ||
 || ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
-|| w3m || WWW browseable pager with excellent tables/frames support || || || ||
+|| w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
