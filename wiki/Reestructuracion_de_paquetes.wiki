@@ -17,4 +17,4 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
 == Elimininacion ==
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
-# aalib1: ascii art library
+* aalib1: ascii art library
