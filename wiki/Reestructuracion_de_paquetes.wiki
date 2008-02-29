@@ -28,7 +28,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
-|| atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| python2.3-numeric-ext, python2.3-pygame ||  || ||
+|| atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| || python2.3-numeric-ext, python2.3-pygame ||  ||
 || bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
 || bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
