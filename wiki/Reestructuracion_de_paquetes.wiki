@@ -38,10 +38,13 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || cvs || Concurrent Versions System || Purgado || || ||
 || ed || The classic unix text editor || || debmake || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
+|| mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
+|| nvi || 4.4BSD re-implementation of vi || || || ||
 || ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
+|| w3m || WWW browseable pager with excellent tables/frames support || || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
