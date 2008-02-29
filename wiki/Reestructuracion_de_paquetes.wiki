@@ -27,3 +27,4 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bc || The GNU bc arbritary precision calculator language||  ||  ||
 || bin86 || 16-bit x86 assembler and loader||  ||  ||
 || bind9-host || Version of 'host' bundled with BIND 9.X||  ||  ||
+|| lpr || BSD lpr/lpd line printer spooling system || Purgado || ||
