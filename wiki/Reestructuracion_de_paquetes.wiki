@@ -11,13 +11,17 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 == Instalacion ==
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
 
+|| *Paquete* || *Descripcion* || *Estado* || *Notas* ||
+
 == Metapaquetes ==
 Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
+
+|| *Paquete* || *Descripcion* || *Estado* || *Notas* ||
 
 == Elimininacion ==
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
-|| *Paquete* || *Descripcion* || *Estado* ||
+|| *Paquete* || *Descripcion* || *Estado* || *Notas* ||
 || aalib1 || ascii art library ||  ||
 || atlas3-base || Automatically Tuned Linear Algebra Software, generic shared||  ||
 || bc || The GNU bc arbritary precision calculator language||  ||
