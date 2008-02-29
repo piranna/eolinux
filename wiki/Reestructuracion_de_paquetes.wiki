@@ -1,0 +1,18 @@
+#summary One-sentence summary of this page.
+#labels Paquetes
+
+= Introduccion =
+
+Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
+
+
+= Detalles =
+
+== Instalacion ==
+Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
+
+== Metapaquetes ==
+Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
+
+== Elimininacion ==
+Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...)
