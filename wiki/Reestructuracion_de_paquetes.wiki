@@ -43,3 +43,5 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
+|| xfs || X font server || Purgado || x-window-system|| ||
+|| x-window-system || X Window System || Purgado || || Metapaquete ||
