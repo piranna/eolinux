@@ -44,6 +44,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
+|| at || Delayed job execution and batch processing || Purgado || || ||
 || atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| || python2.3-numeric-ext, python2.3-pygame ||  ||
 || base-config || Debian base system configurator || Purgado || || Script de configuracion inicial de Debian ||
 || bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
@@ -59,6 +60,9 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || dc ||  || Purgado || || ||
 || ed || The classic unix text editor || || debmake || ||
 || exim4 ||  || Purgado || || ||
+|| exim4-base ||  || Purgado || || ||
+|| exim4-config ||  || Purgado || || ||
+|| exim4-daemon-light ||  || Purgado || || ||
 || flex || A fast lexical analyzer generator. || Purgado || || ||
 || g++ ||  || Purgado || || ||
 || gcc ||  || Purgado || || ||
@@ -78,11 +82,14 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
 || nvi || 4.4BSD re-implementation of vi || Purgado || || ||
+|| pan ||  || Purgado || || ||
 || ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
 || ratpoison ||  || Purgado || || ||
+|| tasksel ||  || Purgado || || ||
+|| tcsh ||  || Purgado || || ||
 || telnet || The telnet client || Purgado || || ||
 || twm ||  || Purgado || || ||
 || vacation ||  || Purgado || || ||
@@ -93,4 +100,6 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || xfs || X font server || Purgado || x-window-system|| ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
 || xfwp || X firewall proxy server || Purgado || || ||
+|| xprt ||  || Purgado || || ||
+|| xprt-xprintorg ||  || Purgado || || ||
 || xvfb || virtual framebuffer X server || Purgado || || ||
