@@ -8,5 +8,5 @@ Modificaciones y optimizaciones a realizar
 
 = Detalles =
 
-|| Usar dash en lugar de bash como shell del sistema (25% menos de memoria y mayor velocidad de carga) || ||
+|| Usar dash en lugar de bash como shell del sistema (25% menos de memoria y mayor velocidad de carga) || Hecho ||
 || Eliminar terminales virtuales no utilizadas (Ctrl+Alt+fn[1-6]) || Hecho ||
