@@ -71,6 +71,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || hexedit ||  || Purgado || || ||
 || iamerican || An American English dictionary for ispell || Purgado || || ||
 || ibritish || A British English dictionary for ispell || Purgado || || ||
+|| klogd ||  || Purgado || || ||
 || lbxproxy ||  || Purgado || || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
 || lynx || Text-mode WWW Browser || Purgado || || ||
@@ -92,6 +93,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || tcsh ||  || Purgado || || ||
 || telnet || The telnet client || Purgado || || ||
 || twm ||  || Purgado || || ||
+|| sysklogd ||  || Purgado || || ||
 || vacation ||  || Purgado || || ||
 || vim || Vi IMproved - enhanced vi editor || Purgado || || ||
 || vim-common || Vi IMproved - Common files || Purgado || || ||
@@ -99,6 +101,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
+|| xdm || X display manager || Purgado || || ||
 || xfwp || X firewall proxy server || Purgado || || ||
 || xprt ||  || Purgado || || ||
 || xprt-xprintorg ||  || Purgado || || ||
