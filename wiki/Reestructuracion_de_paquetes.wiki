@@ -88,6 +88,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
+|| portmap ||  || Purgado || || ||
 || ratpoison ||  || Purgado || || ||
 || tasksel ||  || Purgado || || ||
 || tcsh ||  || Purgado || || ||
