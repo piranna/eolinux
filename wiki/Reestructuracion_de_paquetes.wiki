@@ -58,6 +58,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || cpp-3.3 || The GNU C preprocessor || || || ||
 || cvs || Concurrent Versions System || Purgado || || ||
 || dc ||  || Purgado || || ||
+|| db4.2-util ||  || Purgado || || ||
+|| doc-debian ||  || Purgado || || ||
 || ed || The classic unix text editor || || debmake || ||
 || exim4 ||  || Purgado || || ||
 || exim4-base ||  || Purgado || || ||
@@ -89,6 +91,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
 || portmap ||  || Purgado || || ||
+|| procmail ||  || Purgado || || ||
 || ratpoison ||  || Purgado || || ||
 || tasksel ||  || Purgado || || ||
 || tcsh ||  || Purgado || || ||
