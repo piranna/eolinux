@@ -12,7 +12,17 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
 
 || *Paquete* || *Descripcion* || *Estado* || *Notas* ||
-|| ispanish || || || ||
+|| dash || The Debian Alchimist Shell || Instalado || Shell ligera para scripts ||
+|| ispanish || Spanish dictionary for ispell || Instalado || ||
+|| tzdata || Time Zone and Daylight Saving Time Data || Instalado || Autoinstalado con dash ||
+|| wspanish || The Spanish dictionary words for /usr/share/dict || Instalado || ||
+
+== Actualizados ==
+Paquetes actualizados automaticamente por apt-get
+|| *Paquete* || *Descripcion* || *Actualizado* ||
+|| libc6 || GNU C Library: Shared libaries || dash ||
+|| libc6-dev || GNU C Library: Development Libaries and Header Files || dash ||
+|| locales || GNU C Library: National Language (locale) data || dash ||
 
 == Metapaquetes ==
 Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
@@ -30,6 +40,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
 || atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| || python2.3-numeric-ext, python2.3-pygame ||  ||
+|| base-config || Debian base system configurator || Purgado || || Script de configuracion inicial de Debian ||
 || bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
 || bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
@@ -40,8 +51,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || cvs || Concurrent Versions System || Purgado || || ||
 || ed || The classic unix text editor || || debmake || ||
 || flex || A fast lexical analyzer generator. || Purgado || || ||
-|| iamerican || An American English dictionary for ispell || || || ||
-|| ibritish || A British English dictionary for ispell || || || ||
+|| iamerican || An American English dictionary for ispell || Purgado || || ||
+|| ibritish || A British English dictionary for ispell || Purgado || || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
 || lynx || Text-mode WWW Browser || Purgado || || ||
 || m4 || a macro processing language || Purgado || bison, flex || ||
@@ -56,5 +67,6 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
 || w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
+|| wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
