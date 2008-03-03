@@ -25,7 +25,7 @@ Paquetes actualizados automaticamente por apt-get
 || locales || GNU C Library: National Language (locale) data || dash ||
 
 == Metapaquetes ==
-Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
+Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...) o que serian interesantes fuera de la instalacion basica
 
 || *Paquete* || *Descripcion* || *Estado* || *Dependencias* || *Notas* ||
 || mozilla-firefox || lightweight web browser based on Mozilla || Purgado || || Hace falta uno mas "ligero" ||
@@ -34,6 +34,10 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
 || mplayer-386 || The Ultimate Movie Player for Linux || Purgado || || ||
 || mplayer-fonts || Fonts for mplayer || Purgado || || ||
 || xchat || IRC client for X similar to AmIRC || Purgado || || ||
+|| xmms ||  || Purgado || || ||
+|| xmms-kjofol ||  || Purgado || || ||
+|| xmms-kjofol-skins ||  || Purgado || || ||
+
 
 == Elimininacion ==
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
@@ -47,6 +51,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
 || bittornado ||  || Purgado || || ||
 || bison || A parser generator that is compatible with YACC || Purgado || || ||
+|| build-essential ||  || Purgado || || ||
 || cdrecord || command line CD writing tool || Purgado || || ||
 || cpp || The GNU C preprocessor (cpp) || || || ||
 || cpp-3.3 || The GNU C preprocessor || || || ||
@@ -55,7 +60,10 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || ed || The classic unix text editor || || debmake || ||
 || exim4 ||  || Purgado || || ||
 || flex || A fast lexical analyzer generator. || Purgado || || ||
+|| g++ ||  || Purgado || || ||
+|| gcc ||  || Purgado || || ||
 || gdb ||  || Purgado || || ||
+|| gnu-efi ||  || Purgado || || ||
 || hexedit ||  || Purgado || || ||
 || iamerican || An American English dictionary for ispell || Purgado || || ||
 || ibritish || A British English dictionary for ispell || Purgado || || ||
@@ -75,11 +83,14 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
 || ratpoison ||  || Purgado || || ||
+|| telnet || The telnet client || Purgado || || ||
 || twm ||  || Purgado || || ||
+|| vacation ||  || Purgado || || ||
 || vim || Vi IMproved - enhanced vi editor || Purgado || || ||
 || vim-common || Vi IMproved - Common files || Purgado || || ||
 || w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
 || wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
+|| xfwp || X firewall proxy server || Purgado || || ||
 || xvfb || virtual framebuffer X server || Purgado || || ||
