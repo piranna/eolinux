@@ -33,6 +33,7 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...)
 || freevo-media || Themes and non-application data for Freevo || Purgado || || ||
 || mplayer-386 || The Ultimate Movie Player for Linux || Purgado || || ||
 || mplayer-fonts || Fonts for mplayer || Purgado || || ||
+|| xchat || IRC client for X similar to AmIRC || Purgado || || ||
 
 == Elimininacion ==
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
@@ -66,7 +67,10 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
+|| vim || Vi IMproved - enhanced vi editor || Purgado || || ||
+|| vim-common || Vi IMproved - Common files || Purgado || || ||
 || w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
 || wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
+|| xvfb || virtual framebuffer X server || Purgado || || ||
