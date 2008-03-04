@@ -52,7 +52,9 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
 || bittornado ||  || Purgado || || ||
 || bison || A parser generator that is compatible with YACC || Purgado || || ||
+|| Bochsbios || Bios for the Bochs emulator || || || ||
 || build-essential ||  || Purgado || || ||
+|| cparanoia || An audio extracting tool for sampling CD's || || || ||
 || cdrecord || command line CD writing tool || Purgado || || ||
 || cpp || The GNU C preprocessor (cpp) || || || ||
 || cpp-3.3 || The GNU C preprocessor || || || ||
@@ -65,6 +67,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || exim4-base ||  || Purgado || || ||
 || exim4-config ||  || Purgado || || ||
 || exim4-daemon-light ||  || Purgado || || ||
+|| flac || Free Lossless audio codec || || || ||
 || flex || A fast lexical analyzer generator. || Purgado || || ||
 || g++ ||  || Purgado || || ||
 || gcc ||  || Purgado || || ||
@@ -100,6 +103,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || sysklogd ||  || Purgado || || ||
 || vacation ||  || Purgado || || ||
 || vim || Vi IMproved - enhanced vi editor || Purgado || || ||
+|| vorbis-tools || Several Vorbis Tools || || || ||
 || vim-common || Vi IMproved - Common files || Purgado || || ||
 || w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
 || wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
