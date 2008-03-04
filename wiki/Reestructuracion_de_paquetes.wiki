@@ -55,7 +55,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bittornado ||  || Purgado || || ||
 || bison || A parser generator that is compatible with YACC || Purgado || || ||
 || build-essential ||  || Purgado || || ||
-|| cparanoia || An audio extracting tool for sampling CD's || || || ||
+|| cparanoia || An audio extracting tool for sampling CD's || Purgado || || ||
 || cdrecord || command line CD writing tool || Purgado || || ||
 || cpp || The GNU C preprocessor (cpp) || || || ||
 || cpp-3.3 || The GNU C preprocessor || || || ||
@@ -68,7 +68,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || exim4-base ||  || Purgado || || ||
 || exim4-config ||  || Purgado || || ||
 || exim4-daemon-light ||  || Purgado || || ||
-|| flac || Free Lossless audio codec || || || ||
+|| flac || Free Lossless audio codec || Purgado || || ||
 || flex || A fast lexical analyzer generator. || Purgado || || ||
 || g++ ||  || Purgado || || ||
 || gcc ||  || Purgado || || ||
@@ -97,7 +97,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || portmap ||  || Purgado || || ||
 || procmail ||  || Purgado || || ||
 || ratpoison ||  || Purgado || || ||
-|| reportbug || Reports bugs in the debian contribution ||  || || ||
+|| reportbug || Reports bugs in the debian contribution || Purgado || || ||
 || tasksel ||  || Purgado || || ||
 || tcsh ||  || Purgado || || ||
 || telnet || The telnet client || Purgado || || ||
