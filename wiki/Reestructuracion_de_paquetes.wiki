@@ -28,7 +28,7 @@ Paquetes actualizados automaticamente por apt-get
 Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...) o que serian interesantes fuera de la instalacion basica
 
 || *Paquete* || *Descripcion* || *Estado* || *Dependencias* || *Notas* ||
-|| mozilla-firefox || lightweight web browser based on Mozilla || Purgado || || Hace falta uno mas "ligero" ||
+|| mozilla-firefox || lightweight web browser based on Mozilla || Purgado || || Hace falta uno mas "ligero"(Podriamos probar epiphany) ||
 || freevo || A Python based PVR/DVR Framework for Music and Movies || Purgado || || ||
 || freevo-media || Themes and non-application data for Freevo || Purgado || || ||
 || mplayer-386 || The Ultimate Movie Player for Linux || Purgado || || ||
