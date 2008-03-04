@@ -95,7 +95,9 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
 || portmap ||  || Purgado || || ||
 || procmail ||  || Purgado || || ||
+|| qemu || fast processor emulator || || || ||
 || ratpoison ||  || Purgado || || ||
+|| reportbug || Reports bugs in the debian contribution ||  || || ||
 || tasksel ||  || Purgado || || ||
 || tcsh ||  || Purgado || || ||
 || telnet || The telnet client || Purgado || || ||
