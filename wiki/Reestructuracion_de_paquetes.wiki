@@ -139,5 +139,6 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || xml-core ||  || Purgado || || ||
 || xprt ||  || Purgado || || ||
 || xprt-xprintorg ||  || Purgado || || ||
+|| xtdesktop ||  || Purgado || || Iconos del escritorio ||
 || xterm ||  || Purgado || || ||
 || xvfb || virtual framebuffer X server || Purgado || || ||
