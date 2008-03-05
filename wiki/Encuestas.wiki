@@ -1,0 +1,30 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+== Navegador ==
+|| Firefox || ||
+|| Galeon || ||
+|| Epiphany || ||
+|| Epiphany-WebKit || ||
+|| Dillo || ||
+|| Links-VGA || ||
+|| Konqueror || ||
+
+== Sources ==
+|| Sarge || ||
+|| Etch || El Piraña ||
+|| Lenny || ||
+
+== Kernel ==
+|| 2.4.x || ||
+|| 2.6.x || ||
+
+== X-Windows ==
+|| XFree86 || ||
+|| X.org || El Piraña ||
