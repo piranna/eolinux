@@ -10,7 +10,7 @@ Add your content here.
 == Navegador ==
 || Firefox || ||
 || Galeon || ||
-|| Epiphany || ||
+|| Epiphany || Trash-Master ||
 || Epiphany-WebKit || ||
 || Dillo || ||
 || Links-VGA || ||
@@ -18,7 +18,7 @@ Add your content here.
 
 == Sources ==
 || Sarge || ||
-|| Etch || El Piraña ||
+|| Etch || El Piraña, Trash-Master ||
 || Lenny || ||
 
 == Kernel ==
@@ -27,4 +27,4 @@ Add your content here.
 
 == X-Windows ==
 || XFree86 || ||
-|| X.org || El Piraña ||
+|| X.org || El Piraña, Trash-Master ||
