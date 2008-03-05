@@ -28,3 +28,10 @@ Add your content here.
 == X-Windows ==
 || XFree86 || ||
 || X.org || El Piraña, Trash-Master ||
+
+== Entorno de escritorio ==
+|| XFCE4 || ||
+|| FluxBox || ||
+|| IceWM || ||
+|| MatchBox || ||
+|| RatPoison || ||
