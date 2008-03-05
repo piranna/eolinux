@@ -12,3 +12,4 @@ Modificaciones y optimizaciones a realizar
 || Eliminar terminales virtuales no utilizadas (Ctrl+Alt+fn[1-6]) || Hecho ||
 || Activar DMA en hda y cd-rom || Hecho ||
 || Eliminar modulos lp y nfs || Hecho ||
+|| Cargar terminal y teclado al arrancar || Hecho ||
