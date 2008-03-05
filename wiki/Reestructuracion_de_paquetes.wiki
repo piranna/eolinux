@@ -99,6 +99,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
 || ncftp ||  || Purgado || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
+|| nmap ||  || Purgado || || ||
+|| nmapfe ||  || Purgado || || ||
 || nvi || 4.4BSD re-implementation of vi || Purgado || || ||
 || pan ||  || Purgado || || ||
 || ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
