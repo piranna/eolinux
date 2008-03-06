@@ -89,6 +89,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || info ||  || Purgado || || ||
 || klogd ||  || Purgado || || ||
 || lbxproxy ||  || Purgado || || ||
+|| libxine1 ||  || Purgado || || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
 || lynx || Text-mode WWW Browser || Purgado || || ||
 || m4 || a macro processing language || Purgado || bison, flex || ||
