@@ -1,5 +1,6 @@
 #Paquetes de Xebian despues de actualizar a Etch... y petar del todo.
 
+{{{
 live@xebian:~$ dpkg -l
 Desired=Unknown/Install/Remove/Purge/Hold
 | Estado=No/Instalado/Config-files/Unpacked/Failed-config/Half-installed
@@ -515,3 +516,4 @@ ii  zip                                            2.32-1                       
 ii  zlib1g                                         1.2.3-13                                       compression library - runtime
 ii  zlib1g-dev                                     1.2.3-13                                       compression library - development
 live@xebian:~$ 
+}}}
