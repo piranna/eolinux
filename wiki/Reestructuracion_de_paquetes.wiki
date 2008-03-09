@@ -56,6 +56,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
 || bittornado ||  || Purgado || || ||
 || bison || A parser generator that is compatible with YACC || Purgado || || ||
+|| bootsplash || Enables a graphical boot screen || Purgado || bootsplash-theme-xebian || Da problemas con los paquetes ||
+|| bootsplahs-theme-xebian || The Default Xebian bootsplash them || Purgado || || bootsplash da problemas al actualizar, ademas de que hay que personalizarlo ||
 || build-essential ||  || Purgado || || ||
 || cparanoia || An audio extracting tool for sampling CD's || Purgado || || ||
 || cdrecord || command line CD writing tool || Purgado || || ||
