@@ -55,13 +55,10 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
 || bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
-|| bittornado ||  || Purgado || || ||
 || bison || A parser generator that is compatible with YACC || Purgado || || ||
 || bootsplash || Enables a graphical boot screen || Purgado || bootsplash-theme-xebian || Da problemas con los paquetes ||
 || bootsplahs-theme-xebian || The Default Xebian bootsplash them || Purgado || || bootsplash da problemas al actualizar, ademas de que hay que personalizarlo ||
 || build-essential ||  || Purgado || || ||
-|| cparanoia || An audio extracting tool for sampling CD's || Purgado || || ||
-|| cdrecord || command line CD writing tool || Purgado || || ||
 || cpp || The GNU C preprocessor (cpp) || || || ||
 || cpp-3.3 || The GNU C preprocessor || || || ||
 || cvs || Concurrent Versions System || Purgado || || ||
@@ -86,10 +83,6 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || gftp-text ||  || Purgado || || ||
 || gnu-efi ||  || Purgado || || ||
 || groff-base ||  || Purgado || || ||
-|| hexedit ||  || Purgado || || ||
-|| iamerican || An American English dictionary for ispell || Purgado || || ||
-|| ibritish || A British English dictionary for ispell || Purgado || || ||
-|| info ||  || Purgado || || ||
 || lbxproxy ||  || Purgado || || ||
 || libxine1 ||  || Purgado || || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
@@ -97,39 +90,19 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || m4 || a macro processing language || Purgado || bison, flex || ||
 || ncftp ||  || Purgado || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
-|| nmap ||  || Purgado || || ||
-|| nmapfe ||  || Purgado || || ||
-|| nvi || 4.4BSD re-implementation of vi || Purgado || || ||
-|| pan || A Newsreader based on GTK2, which looks like Forte Agent || Purgado || || ||
 || portmap ||  || Purgado || || ||
 || procmail ||  || Purgado || || ||
 || proxymngr ||  || Purgado || || ||
-|| ratpoison ||  || Purgado || || ||
-|| reportbug || Reports bugs in the debian contribution || Purgado || || ||
 || setserial || Controls configuration of serial ports || Purgado || || ||
 || slang1 || The S-Lang programming libary - runtime version || Purgado || || ||
 || tasksel ||  || Purgado || || ||
 || tcl8.4 ||  || Purgado || || ||
-|| tcsh ||  || Purgado || || ||
-|| texinfo ||  || Purgado || || ||
-|| transfig ||  || Purgado || || ||
-|| twm ||  || Purgado || || ||
-|| sgml-base ||  || Purgado || || ||
-|| speex ||  || Purgado || || ||
-|| strace ||  || Purgado || || ||
 || sysklogd ||  || Purgado || || ||
 || vim || Vi IMproved - enhanced vi editor || Purgado || || ||
 || vorbis-tools || Several Vorbis Tools || Purgado || || ||
-|| vim-common || Vi IMproved - Common files || Purgado || || ||
-|| vgabios ||  || Purgado || || ||
-|| w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
-|| wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
-|| whois ||  || Purgado || || ||
-|| xine-ui ||  || Purgado || || ||
 || xml-core ||  || Purgado || || ||
 || xprt ||  || Purgado || || ||
 || xprt-xprintorg ||  || Purgado || || ||
-|| xtdesktop ||  || Purgado || || Iconos del escritorio ||
 || xvfb || virtual framebuffer X server || Purgado || || ||
 
 === Sistema ===
@@ -141,19 +114,46 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || xfwp || X firewall proxy server || Purgado || || ||
 || xserver-xorg-video-all ||  || Purgado || || ||
 || xserver-xorg-video-apm || X.Org X server -- APM display driver || Purgado || || ||
+|| xtdesktop ||  || Purgado || || Iconos del escritorio ||
 || xterm ||  || Purgado || || ||
 
 === Morralla ===
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
+|| bittornado ||  || Purgado || || ||
+|| cparanoia || An audio extracting tool for sampling CD's || Purgado || || ||
+|| cdrecord || command line CD writing tool || Purgado || || ||
+|| hexedit ||  || Purgado || || ||
+|| iamerican || An American English dictionary for ispell || Purgado || || ||
+|| ibritish || A British English dictionary for ispell || Purgado || || ||
+|| info ||  || Purgado || || ||
 || mailx || A simple mail user agent || Purgado || || ||
 || man-db ||  || Purgado || || ||
 || manpages || Manual pages about using a GNU/Linux system || Purgado || || ||
 || manpages-dev || Manual pages about using GNU/Linux for development || Purgado || || ||
 || mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
+|| nmap ||  || Purgado || || ||
+|| nmapfe ||  || Purgado || || ||
+|| nvi || 4.4BSD re-implementation of vi || Purgado || || ||
+|| pan || A Newsreader based on GTK2, which looks like Forte Agent || Purgado || || ||
 || ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
+|| ratpoison ||  || Purgado || || ||
+|| reportbug || Reports bugs in the debian contribution || Purgado || || ||
+|| tcsh ||  || Purgado || || ||
 || telnet || The telnet client || Purgado || || ||
+|| texinfo ||  || Purgado || || ||
+|| transfig ||  || Purgado || || ||
+|| twm ||  || Purgado || || ||
+|| sgml-base ||  || Purgado || || ||
+|| speex ||  || Purgado || || ||
+|| strace ||  || Purgado || || ||
 || vacation ||  || Purgado || || ||
+|| vim-common || Vi IMproved - Common files || Purgado || || ||
+|| vgabios ||  || Purgado || || ||
+|| w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
+|| wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
+|| whois ||  || Purgado || || ||
+|| xine-ui ||  || Purgado || || ||
