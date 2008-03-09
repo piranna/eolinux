@@ -107,7 +107,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || nmap ||  || Purgado || || ||
 || nmapfe ||  || Purgado || || ||
 || nvi || 4.4BSD re-implementation of vi || Purgado || || ||
-|| pan ||  || Purgado || || ||
+|| pan || A Newsreader based on GTK2, which looks like Forte Agent || Purgado || || ||
 || ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
 || pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
 || pppoe || PPP over Ethernet driver || Purgado || || ||
