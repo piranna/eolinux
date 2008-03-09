@@ -139,6 +139,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || xdm || X display manager || Purgado || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || xfwp || X firewall proxy server || Purgado || || ||
+|| xserver-xorg-video-all ||  || Purgado || || ||
+|| xserver-xorg-video-apm || X.Org X server -- APM display driver || Purgado || || ||
 || xterm ||  || Purgado || || ||
 
 === Morralla ===
