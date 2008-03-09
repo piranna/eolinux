@@ -49,7 +49,6 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...) o qu
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
-|| aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
 || at || Delayed job execution and batch processing || Purgado || || ||
 || atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| || python2.3-numeric-ext, python2.3-pygame ||  ||
 || base-config || Debian base system configurator || Purgado || || Script de configuracion inicial de Debian ||
@@ -91,27 +90,17 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || iamerican || An American English dictionary for ispell || Purgado || || ||
 || ibritish || A British English dictionary for ispell || Purgado || || ||
 || info ||  || Purgado || || ||
-|| klogd ||  || Purgado || || ||
 || lbxproxy ||  || Purgado || || ||
 || libxine1 ||  || Purgado || || ||
 || lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
 || lynx || Text-mode WWW Browser || Purgado || || ||
 || m4 || a macro processing language || Purgado || bison, flex || ||
-|| mailx || A simple mail user agent || Purgado || || ||
-|| man-db ||  || Purgado || || ||
-|| manpages || Manual pages about using a GNU/Linux system || Purgado || || ||
-|| manpages-dev || Manual pages about using GNU/Linux for development || Purgado || || ||
-|| mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
 || ncftp ||  || Purgado || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
 || nmap ||  || Purgado || || ||
 || nmapfe ||  || Purgado || || ||
 || nvi || 4.4BSD re-implementation of vi || Purgado || || ||
 || pan || A Newsreader based on GTK2, which looks like Forte Agent || Purgado || || ||
-|| ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
-|| pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
-|| pppoe || PPP over Ethernet driver || Purgado || || ||
-|| pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
 || portmap ||  || Purgado || || ||
 || procmail ||  || Purgado || || ||
 || proxymngr ||  || Purgado || || ||
@@ -122,7 +111,6 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || tasksel ||  || Purgado || || ||
 || tcl8.4 ||  || Purgado || || ||
 || tcsh ||  || Purgado || || ||
-|| telnet || The telnet client || Purgado || || ||
 || texinfo ||  || Purgado || || ||
 || transfig ||  || Purgado || || ||
 || twm ||  || Purgado || || ||
@@ -130,7 +118,6 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || speex ||  || Purgado || || ||
 || strace ||  || Purgado || || ||
 || sysklogd ||  || Purgado || || ||
-|| vacation ||  || Purgado || || ||
 || vim || Vi IMproved - enhanced vi editor || Purgado || || ||
 || vorbis-tools || Several Vorbis Tools || Purgado || || ||
 || vim-common || Vi IMproved - Common files || Purgado || || ||
@@ -139,13 +126,32 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
 || whois ||  || Purgado || || ||
 || xine-ui ||  || Purgado || || ||
-|| xfs || X font server || Purgado || x-window-system|| ||
-|| x-window-system || X Window System || Purgado || || Metapaquete ||
-|| xdm || X display manager || Purgado || || ||
-|| xfwp || X firewall proxy server || Purgado || || ||
 || xml-core ||  || Purgado || || ||
 || xprt ||  || Purgado || || ||
 || xprt-xprintorg ||  || Purgado || || ||
 || xtdesktop ||  || Purgado || || Iconos del escritorio ||
-|| xterm ||  || Purgado || || ||
 || xvfb || virtual framebuffer X server || Purgado || || ||
+
+=== Sistema ===
+|| *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
+|| klogd ||  || Purgado || || ||
+|| x-window-system || X Window System || Purgado || || Metapaquete ||
+|| xdm || X display manager || Purgado || || ||
+|| xfs || X font server || Purgado || x-window-system|| ||
+|| xfwp || X firewall proxy server || Purgado || || ||
+|| xterm ||  || Purgado || || ||
+
+=== Morralla ===
+|| *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
+|| aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
+|| mailx || A simple mail user agent || Purgado || || ||
+|| man-db ||  || Purgado || || ||
+|| manpages || Manual pages about using a GNU/Linux system || Purgado || || ||
+|| manpages-dev || Manual pages about using GNU/Linux for development || Purgado || || ||
+|| mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
+|| ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
+|| pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
+|| pppoe || PPP over Ethernet driver || Purgado || || ||
+|| pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
+|| telnet || The telnet client || Purgado || || ||
+|| vacation ||  || Purgado || || ||
