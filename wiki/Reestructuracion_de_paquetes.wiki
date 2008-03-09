@@ -32,6 +32,8 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...) o qu
 || mozilla-firefox || lightweight web browser based on Mozilla || Purgado || || Hace falta uno mas "ligero"(Podriamos probar epiphany) ||
 || freevo || A Python based PVR/DVR Framework for Music and Movies || Purgado || || ||
 || freevo-media || Themes and non-application data for Freevo || Purgado || || ||
+|| ipw2100-modules-2.6.11.8 || ipw2100 modules for Linux (kernel 2.6.11.8). || Purgado || || conflicto con bootsplash ||
+|| ipw2200-modules-2.6.11.8 || ipw2100 modules for Linux (kernel 2.6.11.8). || Purgado || || conflicto con bootsplash ||
 || mplayer-386 || The Ultimate Movie Player for Linux || Purgado || || ||
 || mplayer-fonts || Fonts for mplayer || Purgado || || ||
 || qemu || fast processor emulator || Purgado || || ||
