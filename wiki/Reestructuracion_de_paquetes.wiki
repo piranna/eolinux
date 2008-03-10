@@ -170,3 +170,7 @@ xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xser
 lbxproxy libdps1 libgc1 xchat-text xprt-common xlibs xfree86-common netkit-inetd libxtst6 libnewt0.51 libmodplug0 proxymngr python2.3 python2.3-twisted
 
 python2.3-numeric-ext, python2.3-pygame
+
+x-window-system* x-window-system-core* xorg* xutils* xutils-dev*
+
+build-essential* g++* g++-3.3* g++-4.1* gnu-efi* libc6-dev* libncurses5-dev* libstdc++5-3.3-dev* libstdc++6-4.1-dev* zlib1g-dev* debhelper* debmake* devscripts* dpkg-dev* kernel-package* linux-kernel-headers* type-handling* yada* libdevmapper1.00 libdevmapper1.01 
