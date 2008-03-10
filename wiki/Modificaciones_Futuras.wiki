@@ -13,3 +13,5 @@ Modificaciones y optimizaciones a realizar
 || Activar DMA en hda y cd-rom || Hecho ||
 || Eliminar modulos lp y nfs || Hecho ||
 || Cargar terminal y teclado al arrancar || Hecho ||
+|| Poner locales en español || Hecho ||
+|| Poner teclado en las X en español ||  ||
