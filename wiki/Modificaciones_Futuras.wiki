@@ -14,4 +14,4 @@ Modificaciones y optimizaciones a realizar
 || Eliminar modulos lp y nfs || Hecho ||
 || Cargar terminal y teclado al arrancar || Hecho ||
 || Poner locales en español || Hecho ||
-|| Poner teclado en las X en español ||  ||
+|| Poner teclado en español ||  ||
