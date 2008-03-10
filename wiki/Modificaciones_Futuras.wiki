@@ -18,3 +18,5 @@ Modificaciones y optimizaciones a realizar
 || Poner zona horaria en español || Hecho ||
 || Eliminar usuarios inutiles y personalizar usuario principal ||  ||
 || Hacer script de instalacion con posibilidad de personalizacion (zona horaria, repositorios, usuarios...) ||  ||
+|| Arreglar scripts defectuosos con dash (issues y alguno mas) || ||
+|| Hacer un bootsplash personalizado || ||
