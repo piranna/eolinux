@@ -8,6 +8,11 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 
 = Detalles =
 
+== Esenciales ==
+Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
+
+ed sed findutils
+
 == Instalacion ==
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
 
@@ -176,3 +181,5 @@ x-window-system* x-window-system-core* xorg* xutils* xutils-dev*
 build-essential* g++* g++-3.3* g++-4.1* gnu-efi* libc6-dev* libncurses5-dev* libstdc++5-3.3-dev* libstdc++6-4.1-dev* zlib1g-dev* debhelper* debmake* devscripts* dpkg-dev* kernel-package* linux-kernel-headers* type-handling* yada* libdevmapper1.00 libdevmapper1.01
 
 tcsh hexedit bc dc gdb tcl8.4 gftp iceweasel lynx ncftp pan telnet w3m aptitude reportbug xine info xterm ratpoison twm cdrecord* modconf* traceroute* transfig* whiptail* whois* wodim wireless-tools xine-ui libxine1 xnest setserial* slang1* slang1a-utf8* speex* strace* texinfo* vacation* vgabios* vim* vim-common* vim-runtime xml-core bison* flex* m4* nmap* nmapfe libstdc++5* man-db* mkisofs* vorbis-tools cpp-3.3* gcc-3.3* gcc-3.3-base* gcc-3.4-base* libg2c0 cdparanoia cvs db4.2-util
+
+bin86* binutils* dpatch* fdutils* finger* flac* gcc* gcc-4.1* genisoimage* gettext* gettext-base* gftp-common* gftp-gtk* gftp-text* intltool-debian* patchutils* po-debconf* sysv-rc-bootsplash libaa1* libcdparanoia0* libcurl2* libdb1-compat* libdb2* patch
