@@ -12,7 +12,7 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
 
 || *Paquete* || *Descripcion* || *Estado* || *Notas* ||
-|| dash || The Debian Alchimist Shell || Instalado || Shell ligera para scripts ||
+|| dash || The Debian Alchimist Shell || Instalado || Shell ligera para scripts, da problemas con los mensajes de bienvenida ||
 || ispanish || Spanish dictionary for ispell || Instalado || ||
 || tzdata || Time Zone and Daylight Saving Time Data || Instalado || Autoinstalado con dash ||
 || wspanish || The Spanish dictionary words for /usr/share/dict || Instalado || ||
@@ -51,52 +51,39 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || at || Delayed job execution and batch processing || Purgado || || ||
 || atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| || python2.3-numeric-ext, python2.3-pygame ||  ||
-|| bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
-|| bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
-|| bison || A parser generator that is compatible with YACC || Purgado || || ||
-|| bootsplash || Enables a graphical boot screen || Purgado || bootsplash-theme-xebian || Da problemas con los paquetes ||
+|| bootsplash || Enables a graphical boot screen || Purgado || bootsplash-theme-xebian || Da problemas con los paquetes, inicio y apagado se quejan al no encontrarlo ||
 || bootsplahs-theme-xebian || The Default Xebian bootsplash them || Purgado || || bootsplash da problemas al actualizar, ademas de que hay que personalizarlo ||
-|| build-essential ||  || Purgado || || ||
 || cpp || The GNU C preprocessor (cpp) || || || ||
 || cpp-3.3 || The GNU C preprocessor || || || ||
-|| cvs || Concurrent Versions System || Purgado || || ||
 || dc ||  || Purgado || || ||
 || db4.2-util ||  || Purgado || || ||
 || doc-debian ||  || Purgado || || ||
 || ed || The classic unix text editor || || debmake || ||
 || g++ ||  || Purgado || || ||
 || gcc ||  || Purgado || || ||
-|| gdb ||  || Purgado || || ||
 || groff-base ||  || Purgado || || ||
 || lbxproxy ||  || Purgado || || ||
 || libxine1 ||  || Purgado || || ||
-|| lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
-|| lynx || Text-mode WWW Browser || Purgado || || ||
 || m4 || a macro processing language || Purgado || bison, flex || ||
 || ncftp ||  || Purgado || || ||
 || nfs-common || NFS support files common to client and server || Purgado || || ||
-|| procmail ||  || Purgado || || ||
 || proxymngr ||  || Purgado || || ||
 || slang1 || The S-Lang programming libary - runtime version || Purgado || || ||
-|| tasksel ||  || Purgado || || ||
-|| tcl8.4 ||  || Purgado || || ||
 || sysklogd ||  || Purgado || || ||
-|| vim || Vi IMproved - enhanced vi editor || Purgado || || ||
-|| vorbis-tools || Several Vorbis Tools || Purgado || || ||
-|| xml-core ||  || Purgado || || ||
-|| xprt ||  || Purgado || || ||
-|| xprt-xprintorg ||  || Purgado || || ||
 || xvfb || virtual framebuffer X server || Purgado || || ||
 
 === Sistema ===
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || klogd ||  || Purgado || || ||
 || portmap ||  || Purgado || || ||
+|| procmail ||  || Purgado || || ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
 || xdm || X display manager || Purgado || || ||
 || xfs || X font server || Purgado || x-window-system|| ||
 || xfwp || X firewall proxy server || Purgado || || ||
+|| xprt ||  || Purgado || || ||
+|| xprt-xprintorg ||  || Purgado || || ||
 || xserver-xorg-video-all ||  || Purgado || || ||
 || xserver-xorg-video-apm || X.Org X server -- APM display driver || Purgado || || ||
 || xtdesktop ||  || Purgado || || Iconos del escritorio ||
@@ -106,9 +93,14 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
 || base-config || Debian base system configurator || Purgado || || Script de configuracion inicial de Debian ||
+|| bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
+|| bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
 || bittornado ||  || Purgado || || ||
+|| bison || A parser generator that is compatible with YACC || Purgado || || ||
+|| build-essential ||  || Purgado || || ||
 || cparanoia || An audio extracting tool for sampling CD's || Purgado || || ||
 || cdrecord || command line CD writing tool || Purgado || || ||
+|| cvs || Concurrent Versions System || Purgado || || ||
 || exim4 ||  || Purgado || || ||
 || exim4-base ||  || Purgado || || ||
 || exim4-config ||  || Purgado || || ||
@@ -117,6 +109,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || finger ||  || Purgado || || ||
 || flac || Free Lossless audio codec || Purgado || || ||
 || flex || A fast lexical analyzer generator. || Purgado || || ||
+|| gdb ||  || Purgado || || ||
 || gftp ||  || Purgado || || ||
 || gftp-common ||  || Purgado || || ||
 || gftp-gtk ||  || Purgado || || ||
@@ -126,6 +119,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || iamerican || An American English dictionary for ispell || Purgado || || ||
 || ibritish || A British English dictionary for ispell || Purgado || || ||
 || info ||  || Purgado || || ||
+|| lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
+|| lynx || Text-mode WWW Browser || Purgado || || ||
 || mailx || A simple mail user agent || Purgado || || ||
 || man-db ||  || Purgado || || ||
 || manpages || Manual pages about using a GNU/Linux system || Purgado || || ||
@@ -141,6 +136,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
 || ratpoison ||  || Purgado || || ||
 || reportbug || Reports bugs in the debian contribution || Purgado || || ||
+|| tasksel ||  || Purgado || || ||
+|| tcl8.4 ||  || Purgado || || ||
 || tcsh ||  || Purgado || || ||
 || telnet || The telnet client || Purgado || || ||
 || texinfo ||  || Purgado || || ||
@@ -155,5 +152,8 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || vgabios ||  || Purgado || || ||
 || w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
 || wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
+|| vim || Vi IMproved - enhanced vi editor || Purgado || || ||
+|| vorbis-tools || Several Vorbis Tools || Purgado || || ||
 || whois ||  || Purgado || || ||
+|| xml-core ||  || Purgado || || ||
 || xine-ui ||  || Purgado || || ||
