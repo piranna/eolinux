@@ -182,4 +182,7 @@ build-essential* g++* g++-3.3* g++-4.1* gnu-efi* libc6-dev* libncurses5-dev* lib
 
 tcsh hexedit bc dc gdb tcl8.4 gftp iceweasel lynx ncftp pan telnet w3m aptitude reportbug xine info xterm ratpoison twm cdrecord* modconf* traceroute* transfig* whiptail* whois* wodim wireless-tools xine-ui libxine1 xnest setserial* slang1* slang1a-utf8* speex* strace* texinfo* vacation* vgabios* vim* vim-common* vim-runtime xml-core bison* flex* m4* nmap* nmapfe libstdc++5* man-db* mkisofs* vorbis-tools cpp-3.3* gcc-3.3* gcc-3.3-base* gcc-3.4-base* libg2c0 cdparanoia cvs db4.2-util
 
-bin86* binutils* dpatch* fdutils* finger* flac* gcc* gcc-4.1* genisoimage* gettext* gettext-base* gftp-common* gftp-gtk* gftp-text* intltool-debian* patchutils* po-debconf* sysv-rc-bootsplash libaa1* libcdparanoia0* libcurl2* libdb1-compat* libdb2* patch
+bin86* binutils* dpatch* fdutils* finger* flac* gcc* gcc-4.1* genisoimage* gettext* gettext-base* gftp-common* gftp-gtk* gftp-text* intltool-debian* patchutils* po-debconf* libaa1* libcdparanoia0* libcurl2* libdb1-compat* libdb2* patch
+
+libcupsys2-gnutls10* libcurl3-gnutls* libdb4.0* libdb4.1* libdbus-glib-1-2* libdns11* libdns16* libgnutls10* libgnutls11* libgtk1.2* libgtkspell0* libiw27* liblame0* liboggflac1* liboggflac3* libpcap0.7*
+  libpcap0.8* libreadline4* libsexy2* libsigc++-1.2-5c102* libspeex1* libtextwrap1* libxp6* xlibs-data
