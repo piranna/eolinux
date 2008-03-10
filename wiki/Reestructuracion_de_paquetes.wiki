@@ -186,3 +186,8 @@ bin86* binutils* dpatch* fdutils* finger* flac* gcc* gcc-4.1* genisoimage* gette
 
 libcupsys2-gnutls10* libcurl3-gnutls* libdb4.0* libdb4.1* libdbus-glib-1-2* libdns11* libdns16* libgnutls10* libgnutls11* libgtk1.2* libgtkspell0* libiw27* liblame0* liboggflac1* liboggflac3* libpcap0.7*
   libpcap0.8* libreadline4* libsexy2* libsigc++-1.2-5c102* libspeex1* libtextwrap1* libxp6* xlibs-data
+
+gconf2* klibc-utils* libao2* libavcodec0d* libcaca0* libcurl3* libdb3* libdirectfb-0.9-20* libdv4* libenchant1c2a* libevent1* libfaad2-0* libflac4* libflac6* libflac7* libgc1c2* libgcrypt7* libggi2*
+  libglib1.2* libgmime-2.0-2* libgnet2.0-0* libgssapi2* libident* libisc7* liblockfile1* libltdl3* libmad0* libmagick9* libmikmod2* libmyspell3c2* libneon24* libnfsidmap2* libopencdk4* libpcre3* libperl5.8*
+  libpostproc0d* librpcsecgss3* libsasl2* libsdl-image1.2* libsdl-mixer1.2* libsdl-ttf2.0-0* libsigc++-2.0-0c2a* libsmbclient* libssp0* libtasn1-2* libtheora0* libvolume-id0* libxvidcore2* xlibmesa-gl*
+  xlibmesa-glu
