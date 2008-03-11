@@ -1,0 +1,10 @@
+#summary Juegos a incluir en el futuro como paquetes externos
+
+Secret Maryo Chronicles
+http://www.secretmaryo.org/
+
+Frets on Fire
+http://fretsonfire.sourceforge.net/
+
+Ultrastar-NG
+http://sourceforge.net/projects/ultrastar-ng/
