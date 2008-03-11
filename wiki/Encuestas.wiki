@@ -23,7 +23,7 @@ Add your content here.
 
 == Kernel ==
 || 2.4.x || ||
-|| 2.6.x || ||
+|| 2.6.x || Algongor ||
 
 == X-Windows ==
 || XFree86 || ||
