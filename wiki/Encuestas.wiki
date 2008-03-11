@@ -18,7 +18,7 @@ Add your content here.
 
 == Sources ==
 || Sarge || ||
-|| Etch || El Piraña, Trash-Master ||
+|| Etch || El Piraña, Trash-Master, Algongor ||
 || Lenny || ||
 
 == Kernel ==
@@ -27,7 +27,7 @@ Add your content here.
 
 == X-Windows ==
 || XFree86 || ||
-|| X.org || El Piraña, Trash-Master ||
+|| X.org || El Piraña, Trash-Master, Algongor ||
 
 == Entorno de escritorio ==
 || XFCE4 || ||
