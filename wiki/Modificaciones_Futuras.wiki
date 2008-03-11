@@ -18,6 +18,6 @@ Modificaciones y optimizaciones a realizar
 || Poner zona horaria en español || Hecho ||
 || Eliminar usuarios inutiles y personalizar usuario principal ||  ||
 || Hacer script de instalacion con posibilidad de personalizacion (zona horaria, repositorios, usuarios...) ||  ||
-|| Arreglar scripts defectuosos con dash (issues y alguno mas) || ||
+|| Arreglar scripts defectuosos con dash (issues y alguno mas) || Hecho || Estan plagados de bashicismos segun https://wiki.ubuntu.com/DashAsBinSh, cambiado #/bin/sh por #/bin/bash ||
 || Hacer un bootsplash personalizado || ||
 || Dash como /bin/sh || Hecho || dpkg-reconfigure dash ||
