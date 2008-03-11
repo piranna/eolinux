@@ -11,7 +11,7 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 == Esenciales ==
 Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 
-ed sed findutils sysv-rc-bootsplash
+ed sed findutils sysv-rc-bootsplash diff gcc-4.1-base gpgv gnupg
 
 == Instalacion ==
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
@@ -59,8 +59,9 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
 || bootsplash || Enables a graphical boot screen || Purgado || bootsplash-theme-xebian || Da problemas con los paquetes, inicio y apagado se quejan al no encontrarlo ||
 || bootsplahs-theme-xebian || The Default Xebian bootsplash them || Purgado || || bootsplash da problemas al actualizar, ademas de que hay que personalizarlo ||
-|| cpp || The GNU C preprocessor (cpp) || || || ||
-|| cpp-3.3 || The GNU C preprocessor || || || ||
+|| cpp || The GNU C preprocessor (cpp) || Purgado || || ||
+|| cpp-3.3 || The GNU C preprocessor || Purgado || || ||
+|| cpp-4.1 || The GNU C preprocessor || Purgado || || ||
 || dc ||  || Purgado || || ||
 || db4.2-util ||  || Purgado || || ||
 || doc-debian ||  || Purgado || || ||
@@ -191,3 +192,5 @@ gconf2* klibc-utils* libao2* libavcodec0d* libcaca0* libcurl3* libdb3* libdirect
   libglib1.2* libgmime-2.0-2* libgnet2.0-0* libgssapi2* libident* libisc7* liblockfile1* libltdl3* libmad0* libmagick9* libmikmod2* libmyspell3c2* libneon24* libnfsidmap2* libopencdk4* libpcre3* libperl5.8*
   libpostproc0d* librpcsecgss3* libsasl2* libsdl-image1.2* libsdl-mixer1.2* libsdl-ttf2.0-0* libsigc++-2.0-0c2a* libsmbclient* libssp0* libtasn1-2* libtheora0* libvolume-id0* libxvidcore2* xlibmesa-gl*
   xlibmesa-glu liba52-0.7.4* libartsc0* libcucul0* libesd0* libgconf2-4* libgcrypt1* libglu1-mesa* libgsm1* libidn11* libjasper-1.701-1* libklibc* libsmpeg0* libssl0.9.7* libsysfs1* libvorbisenc2* libvorbisfile3 gconf2-common* libaudiofile0* liborbit2* libsdl1.2debian* libvorbis0a* libxml2 libidl0* libogg0* libsdl1.2debian-oss libdirectfb-0.9-25* libsvga1 
+
+sgml-base rcs openhackware mtr-tyni winbind libgtk1.2-common gpa fakeroot sharutils rcconf
