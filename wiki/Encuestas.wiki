@@ -31,7 +31,7 @@ Add your content here.
 
 == Entorno de escritorio ==
 || XFCE4 || ||
-|| FluxBox || ||
+|| FluxBox || Trash-Master ||
 || IceWM || ||
 || MatchBox || ||
 || RatPoison || ||
