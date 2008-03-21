@@ -195,4 +195,4 @@ gconf2* klibc-utils* libao2* libavcodec0d* libcaca0* libcurl3* libdb3* libdirect
 
 sgml-base rcs openhackware mtr-tyni winbind libgtk1.2-common gpa fakeroot sharutils rcconf
 
-libgpgme11
+libgpgme11 ncurses-term alsa-utils* apt-listchanges* python* python-apt* python-central* python-newt* python-support lame libnewt0.52
