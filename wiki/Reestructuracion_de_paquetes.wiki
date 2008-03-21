@@ -42,6 +42,8 @@ Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...) o qu
 || mplayer-386 || The Ultimate Movie Player for Linux || Purgado || || ||
 || mplayer-fonts || Fonts for mplayer || Purgado || || ||
 || qemu || fast processor emulator || Purgado || || ||
+|| samba || a LanManager-like file and printer server for Unix || Purgado || || ||
+|| wpasupplicant || Client support for WPA and WPA2 (IEEE 802.11i) || Purgado || || ||
 || xchat || IRC client for X similar to AmIRC || Purgado || || ||
 || xchat-common ||  || Purgado || || ||
 || xchat-text ||  || Purgado || || ||
@@ -196,3 +198,5 @@ gconf2* klibc-utils* libao2* libavcodec0d* libcaca0* libcurl3* libdb3* libdirect
 sgml-base rcs openhackware mtr-tyni winbind libgtk1.2-common gpa fakeroot sharutils rcconf
 
 libgpgme11 ncurses-term alsa-utils* apt-listchanges* python* python-apt* python-central* python-newt* python-support lame libnewt0.52
+
+cron logrotate libcupsys2 html2text language-env less libgtk2.0-bin libnss-db make python-minimal python2.4 python2.4-minimal time libdbus-1-3
