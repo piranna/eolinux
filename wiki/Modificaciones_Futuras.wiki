@@ -22,3 +22,4 @@ Modificaciones y optimizaciones a realizar
 || Arreglar scripts defectuosos con dash (issues y alguno mas) || Hecho || Estan plagados de bashicismos segun https://wiki.ubuntu.com/DashAsBinSh, cambiado #/bin/sh por #/bin/bash ||
 || Hacer un bootsplash personalizado || || ||
 || Dash como /bin/sh || Hecho || dpkg-reconfigure dash ||
+|| Recompilar todos (o al menos los principales) paquetes para arquitectura i686 en lugar de la i386 de serie e incorporarlos al repositorio || || ||
