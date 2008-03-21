@@ -8,16 +8,17 @@ Modificaciones y optimizaciones a realizar
 
 = Detalles =
 
-|| Usar dash en lugar de bash como shell del sistema (25% menos de memoria y mayor velocidad de carga) || Hecho ||
-|| Eliminar terminales virtuales no utilizadas (Ctrl+Alt+fn[1-6]) || Hecho ||
-|| Activar DMA en hda y cd-rom || Hecho ||
-|| Eliminar modulos lp y nfs || Hecho ||
-|| Cargar terminal y teclado al arrancar || Hecho ||
-|| Poner locales en español || Hecho ||
-|| Poner teclado en español ||  ||
-|| Poner zona horaria en español || Hecho ||
-|| Eliminar usuarios inutiles y personalizar usuario principal ||  ||
-|| Hacer script de instalacion con posibilidad de personalizacion (zona horaria, repositorios, usuarios...) ||  ||
+|| Usar dash en lugar de bash como shell del sistema (25% menos de memoria y mayor velocidad de carga) || Hecho || ||
+|| Eliminar terminales virtuales no utilizadas (Ctrl+Alt+fn[1-6]) || Hecho || ||
+|| Activar DMA en hda y cd-rom || Hecho || ||
+|| Eliminar modulos lp y nfs || Hecho || ||
+|| Cargar terminal y teclado al arrancar || Hecho || ||
+|| Poner locales en español || Hecho || ||
+|| Poner teclado en español ||  || ||
+|| Poner zona horaria en español || Hecho || ||
+|| Usar repositorio español || Hecho || ||
+|| Eliminar usuarios inutiles y personalizar usuario principal ||  || ||
+|| Hacer script de instalacion con posibilidad de personalizacion (zona horaria, repositorios, usuarios...) ||  || ||
 || Arreglar scripts defectuosos con dash (issues y alguno mas) || Hecho || Estan plagados de bashicismos segun https://wiki.ubuntu.com/DashAsBinSh, cambiado #/bin/sh por #/bin/bash ||
-|| Hacer un bootsplash personalizado || ||
+|| Hacer un bootsplash personalizado || || ||
 || Dash como /bin/sh || Hecho || dpkg-reconfigure dash ||
