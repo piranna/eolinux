@@ -194,3 +194,5 @@ gconf2* klibc-utils* libao2* libavcodec0d* libcaca0* libcurl3* libdb3* libdirect
   xlibmesa-glu liba52-0.7.4* libartsc0* libcucul0* libesd0* libgconf2-4* libgcrypt1* libglu1-mesa* libgsm1* libidn11* libjasper-1.701-1* libklibc* libsmpeg0* libssl0.9.7* libsysfs1* libvorbisenc2* libvorbisfile3 gconf2-common* libaudiofile0* liborbit2* libsdl1.2debian* libvorbis0a* libxml2 libidl0* libogg0* libsdl1.2debian-oss libdirectfb-0.9-25* libsvga1 
 
 sgml-base rcs openhackware mtr-tyni winbind libgtk1.2-common gpa fakeroot sharutils rcconf
+
+libgpgme11
