@@ -17,7 +17,9 @@ Modificaciones y optimizaciones a realizar
 || Poner teclado en español ||  || ||
 || Poner zona horaria en español || Hecho || ||
 || Usar repositorio español || Hecho || ||
-|| Eliminar usuarios inutiles y personalizar usuario principal ||  || ||
+|| Eliminar usuarios inutiles || Hecho || ||
+||  Personalizar usuario principal (login) || || ||
+|| Cambiar $HOME de /home/<user> a /home (solo habra un unico usuario) || Hecho || ||
 || Hacer script de instalacion con posibilidad de personalizacion (zona horaria, repositorios, usuarios...) ||  || ||
 || Arreglar scripts defectuosos con dash (issues y alguno mas) || Hecho || Estan plagados de bashicismos segun https://wiki.ubuntu.com/DashAsBinSh, cambiado #/bin/sh por #/bin/bash ||
 || Hacer un bootsplash personalizado || || ||
