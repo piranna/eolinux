@@ -11,7 +11,7 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 == Esenciales ==
 Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 
-ed sed findutils sysv-rc-bootsplash diff gcc-4.1-base gpgv gnupg
+ed sed findutils sysv-rc-bootsplash diff gcc-4.1-base gpgv gnupg libedit2 libgcc1
 
 == Instalacion ==
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
@@ -200,3 +200,10 @@ sgml-base rcs openhackware mtr-tyni winbind libgtk1.2-common gpa fakeroot sharut
 libgpgme11 ncurses-term alsa-utils* apt-listchanges* python* python-apt* python-central* python-newt* python-support lame libnewt0.52
 
 cron logrotate libcupsys2 html2text language-env less libgtk2.0-bin libnss-db make python-minimal python2.4 python2.4-minimal time libdbus-1-3
+
+xserver-xorg-video-vga libatk1.0-data libatk1.0-0 libgtk2.0-0 libgtk2.0-common ifrename libiw28 libxvmc1 lirc-modules-2.4.30-xbox
+
+
+*** hwsetup* libpci2* pciutils ***
+
+
