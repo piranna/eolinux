@@ -207,3 +207,4 @@ xserver-xorg-video-vga libatk1.0-data libatk1.0-0 libgtk2.0-0 libgtk2.0-common i
 *** hwsetup* libpci2* pciutils ***
 
 
+ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 ndiswrapper-utils ndiswrapper-utils-1.1 ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
