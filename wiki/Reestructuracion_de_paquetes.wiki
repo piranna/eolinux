@@ -211,3 +211,6 @@ ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 
 
 
 hwdata doc-debian
+
+
+imlib-base* imlib11 fontconfig* libpango1.0-0* libpango1.0-common libcairo2* libglib2.0-0 xlibmesa-dri libgl1-mesa-dri
