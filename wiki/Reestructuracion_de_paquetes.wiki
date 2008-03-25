@@ -217,4 +217,4 @@ imlib-base* imlib11 fontconfig* libpango1.0-0* libpango1.0-common libcairo2* lib
 
 console-common* console-tools* libconsole
 
-libdvdcss2 libdvdread3* lsdvd libgii0* libgii0-target-x libgpmg1
+libdvdcss2 libdvdread3* lsdvd libgii0* libgii0-target-x libgpmg1 libmodplug0c2
