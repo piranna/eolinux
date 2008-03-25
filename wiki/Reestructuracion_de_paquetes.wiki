@@ -216,3 +216,5 @@ hwdata doc-debian
 imlib-base* imlib11 fontconfig* libpango1.0-0* libpango1.0-common libcairo2* libglib2.0-0 xlibmesa-dri libgl1-mesa-dri
 
 console-common* console-tools* libconsole
+
+libdvdcss2 libdvdread3* lsdvd libgii0* libgii0-target-x libgpmg1
