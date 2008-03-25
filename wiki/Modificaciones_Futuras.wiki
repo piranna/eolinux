@@ -27,3 +27,4 @@ Modificaciones y optimizaciones a realizar
 || Recompilar todos (o al menos los principales) paquetes para arquitectura i686 en lugar de la i386 de serie e incorporarlos al repositorio || || Usar apt-build y despues subirlos ||
 || Desactivar IPv6 || || http://ubuntuforums.org/showthread.php?t=87798, tambien hay que quitarlo del nucleo ||
 || Init en paralelo || || Cambiar en /etc/init.d la linea "startup $i start" por "startup $i start &", aunque con tan pocos servicios y con dash quizas no haga falta o no funcione ||
+|| Eliminar xfs en Etch || Hecho || dpkg-reconfigure -phigh xserver-xorg, usa /etc/X11/xorg.conf en lugar de /etc/X11/XF86cfg-4 ||
