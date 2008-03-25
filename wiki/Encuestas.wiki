@@ -15,6 +15,7 @@ Add your content here.
 || Dillo || ||
 || Links-VGA || ||
 || Konqueror || ||
+|| [http://wiki.debian.org/howto_minimo_olpc Minimo] || El Piraña ||
 
 == Sources ==
 || Sarge || ||
@@ -33,5 +34,5 @@ Add your content here.
 || XFCE4 || ||
 || FluxBox || Trash-Master ||
 || IceWM || ||
-|| MatchBox || ||
+|| MatchBox || El Piraña ||
 || RatPoison || ||
