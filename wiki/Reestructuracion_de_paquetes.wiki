@@ -220,3 +220,5 @@ console-common* console-tools* libconsole
 libdvdcss2 libdvdread3* lsdvd libgii0* libgii0-target-x libgpmg1 libmodplug0c2 libsysfs2* sysfsutils
 
 ftp bzip2 cpio cramfsprogs proll dmidecode
+
+esound-common xfonts-100dpi
