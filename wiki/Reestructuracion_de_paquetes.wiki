@@ -179,7 +179,7 @@ B:
 bc build-essential bzip2
 
 C:
-console-common console-tools cpio cramfsprogs
+console-common console-tools cpio cramfsprogs cron
 
 D:
 dc debhelper debmake devscripts dmidecode doc-debian dpkg-dev
@@ -203,19 +203,22 @@ K:
 kernel-package
 
 L:
-lbxproxy libc6-dev libatk1.0-data libatk1.0-0 libcairo2 libconsole libcupsys2-gnutls10libcurl3-gnutls libdb4.0 libdb4.1 libdbus-glib-1-2 libdevmapper1.00 libdevmapper1.01 libdns11 libdns16 libdps1 libdvdcss2 libdvdread3 libgii0 libgii0-target-x libgc1 libgl1-mesa-dri libglib2.0-0 libgnutls10 libgnutls11 libgpmg1 libgtk1.2 libgtk2.0-0 libgtk2.0-common libgtkspell0 libiw27 libiw28 liblame0 libmodplug0 libmodplug0c2 libncurses5-dev libnewt0.51 liboggflac1 liboggflac3 libpango1.0-0 libpango1.0-common libpcap0.7 libpci2 libpcap0.8 libreadline4 libsexy2 libsigc++-1.2-5c102 libspeex1 libstdc++5-3.3-dev libstdc++6-4.1-dev libsysfs2 libtextwrap1 libxp6 libxtst6 libxvmc1 linux-kernel-headers lirc-modules-2.4.30-xbox lsdvd
+language-env lbxproxy less libc6-dev libatk1.0-data libatk1.0-0 libcairo2 libconsole libcupsys2 libcupsys2-gnutls10libcurl3-gnutls libdb4.0 libdb4.1 libdbus-glib-1-2 libdbus-1-3 libdevmapper1.00 libdevmapper1.01 libdns11 libdns16 libdps1 libdvdcss2 libdvdread3 libgii0 libgii0-target-x libgc1 libgl1-mesa-dri libglib2.0-0 libgnutls10 libgnutls11 libgpmg1 libgtk1.2 libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtkspell0 libiw27 libiw28 liblame0 libmodplug0 libmodplug0c2 libncurses5-dev libnewt0.51 libnss-db liboggflac1 liboggflac3 libpango1.0-0 libpango1.0-common libpcap0.7 libpci2 libpcap0.8 libreadline4 libsexy2 libsigc++-1.2-5c102 libspeex1 libstdc++5-3.3-dev libstdc++6-4.1-dev libsysfs2 libtextwrap1 libxp6 libxtst6 libxvmc1 linux-kernel-headers lirc-modules-2.4.30-xbox logrotate lsdvd
+
+M:
+make
 
 N:
 ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 ndiswrapper-utils ndiswrapper-utils-1.1 netkit-inetd
 
 P:
-pciutils proll proxymngr python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted
+pciutils proll proxymngr python-minimal python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted python2.4 python2.4-minimal
 
 S:
 sysfsutils
 
 T:
-tcl8.4 tcsh type-handling
+tcl8.4 tcsh time type-handling
 
 X:
 x-window-system x-window-system-core xchat-text xfonts-100dpi xfree86-common xlibmesa-dri xlibs xlibs-data xorg xprt-common xserver-xorg-video-vga xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810  xutils xutils-dev
@@ -241,5 +244,3 @@ gconf2* klibc-utils* libao2* libavcodec0d* libcaca0* libcurl3* libdb3* libdirect
 sgml-base rcs openhackware mtr-tyni winbind libgtk1.2-common gpa fakeroot sharutils rcconf
 
 libgpgme11 ncurses-term alsa-utils* apt-listchanges* python* python-apt* python-central* python-newt* python-support lame libnewt0.52
-
-cron logrotate libcupsys2 html2text language-env less libgtk2.0-bin libnss-db make python-minimal python2.4 python2.4-minimal time libdbus-1-3
