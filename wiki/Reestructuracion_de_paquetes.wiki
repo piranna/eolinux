@@ -176,19 +176,22 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 A:
 
 B:
-build-essential
+bc build-essential bzip2
 
 C:
-console-common console-tools
+console-common console-tools cpio cramfsprogs
 
 D:
-debhelper debmake devscripts doc-debian dpkg-dev
+dc debhelper debmake devscripts dmidecode doc-debian dpkg-dev
 
 E:
 esound-common
 
+F:
+ftp
+
 G:
-g++ g++-3.3 g++-4.1 gcc-3.3 gcc-3.3-base gcc-3.4-base gnu-efi
+g++ g++-3.3 g++-4.1 gcc-3.3 gcc-3.3-base gcc-3.4-base gdb gnu-efi gftp
 
 H:
 hexedit hwdata hwsetup
@@ -206,10 +209,10 @@ N:
 ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 ndiswrapper-utils ndiswrapper-utils-1.1 netkit-inetd
 
 P:
-pciutils proxymngr python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted
+pciutils proll proxymngr python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted
 
 T:
-tcsh type-handling
+tcl8.4 tcsh type-handling
 
 X:
 x-window-system x-window-system-core xchat-text xfonts-100dpi xfree86-common xlibs xlibs-data xorg xprt-common xserver-xorg-video-vga xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810  xutils xutils-dev
@@ -223,7 +226,7 @@ zlib1g-dev
 
 
 
- bc dc gdb tcl8.4 gftp iceweasel lynx ncftp pan telnet w3m aptitude reportbug xine info xterm ratpoison twm cdrecord* modconf* traceroute* transfig* whiptail* whois* wodim wireless-tools xine-ui libxine1 xnest setserial* slang1* slang1a-utf8* speex* strace* texinfo* vacation* vgabios* vim* vim-common* vim-runtime xml-core bison* flex* m4* nmap* nmapfe libstdc++5* man-db* mkisofs* vorbis-tools cpp-3.3* * libg2c0 cdparanoia cvs db4.2-util
+ iceweasel lynx ncftp pan telnet w3m aptitude reportbug xine info xterm ratpoison twm cdrecord* modconf* traceroute* transfig* whiptail* whois* wodim wireless-tools xine-ui libxine1 xnest setserial* slang1* slang1a-utf8* speex* strace* texinfo* vacation* vgabios* vim* vim-common* vim-runtime xml-core bison* flex* m4* nmap* nmapfe libstdc++5* man-db* mkisofs* vorbis-tools cpp-3.3* * libg2c0 cdparanoia cvs db4.2-util
 
 bin86* binutils* dpatch* fdutils* finger* flac* gcc* gcc-4.1* genisoimage* gettext* gettext-base* gftp-common* gftp-gtk* gftp-text* intltool-debian* patchutils* po-debconf* libaa1* libcdparanoia0* libcurl2* libdb1-compat* libdb2* patch
 
@@ -241,5 +244,3 @@ cron logrotate libcupsys2 html2text language-env less libgtk2.0-bin libnss-db ma
 imlib-base* imlib11 fontconfig* libpango1.0-0* libpango1.0-common libcairo2* libglib2.0-0 xlibmesa-dri libgl1-mesa-dri
 
 libdvdcss2 libdvdread3* lsdvd libgii0* libgii0-target-x libgpmg1 libmodplug0c2 libsysfs2* sysfsutils
-
-ftp bzip2 cpio cramfsprogs proll dmidecode 
