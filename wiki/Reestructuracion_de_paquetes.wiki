@@ -173,15 +173,30 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 
 == Etch ==
 
-xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810
+A:
 
-lbxproxy libdps1 libgc1 xchat-text xprt-common xlibs xfree86-common netkit-inetd libxtst6 libnewt0.51 libmodplug0 proxymngr python2.3 python2.3-twisted
+B:
+build-essential
 
-python2.3-numeric-ext, python2.3-pygame
+C:
 
-x-window-system* x-window-system-core* xorg* xutils* xutils-dev*
+G:
+g++ g++-3.3 g++-4.1 gnu-efi
 
-build-essential* g++* g++-3.3* g++-4.1* gnu-efi* libc6-dev* libncurses5-dev* libstdc++5-3.3-dev* libstdc++6-4.1-dev* zlib1g-dev* debhelper* debmake* devscripts* dpkg-dev* kernel-package* linux-kernel-headers* type-handling* yada* libdevmapper1.00 libdevmapper1.01
+L:
+lbxproxy libc6-dev libdps1 libgc1 libmodplug0 libncurses5-dev libnewt0.51 libstdc++5-3.3-dev libstdc++6-4.1-dev libxtst6
+
+N:
+netkit-inetd
+
+P:
+proxymngr python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted
+
+X:
+x-window-system x-window-system-core xchat-text xprt-common xlibs xfree86-common xorg xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810  xutils xutils-dev
+
+
+* zlib1g-dev* debhelper* debmake* devscripts* dpkg-dev* kernel-package* linux-kernel-headers* type-handling* yada* libdevmapper1.00 libdevmapper1.01
 
 tcsh hexedit bc dc gdb tcl8.4 gftp iceweasel lynx ncftp pan telnet w3m aptitude reportbug xine info xterm ratpoison twm cdrecord* modconf* traceroute* transfig* whiptail* whois* wodim wireless-tools xine-ui libxine1 xnest setserial* slang1* slang1a-utf8* speex* strace* texinfo* vacation* vgabios* vim* vim-common* vim-runtime xml-core bison* flex* m4* nmap* nmapfe libstdc++5* man-db* mkisofs* vorbis-tools cpp-3.3* gcc-3.3* gcc-3.3-base* gcc-3.4-base* libg2c0 cdparanoia cvs db4.2-util
 
