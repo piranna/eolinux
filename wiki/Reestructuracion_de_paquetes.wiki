@@ -184,17 +184,23 @@ console-common console-tools
 D:
 debhelper debmake devscripts doc-debian dpkg-dev
 
+E:
+esound-common
+
 G:
 g++ g++-3.3 g++-4.1 gcc-3.3 gcc-3.3-base gcc-3.4-base gnu-efi
 
 H:
 hexedit hwdata hwsetup
 
+I:
+ifrename ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
+
 K:
 kernel-package
 
 L:
-lbxproxy libc6-dev libconsole libcupsys2-gnutls10libcurl3-gnutls libdb4.0 libdb4.1 libdbus-glib-1-2 libdevmapper1.00 libdevmapper1.01 libdns11 libdns16 libdps1 libgc1 libgnutls10 libgnutls11 libgtk1.2 libgtkspell0 libiw27 liblame0 libmodplug0 libncurses5-dev libnewt0.51 liboggflac1 liboggflac3 libpcap0.7 libpci2 libpcap0.8 libreadline4 libsexy2 libsigc++-1.2-5c102 libspeex1 libstdc++5-3.3-dev libstdc++6-4.1-dev libtextwrap1 libxp6 libxtst6 linux-kernel-headers
+lbxproxy libc6-dev libatk1.0-data libatk1.0-0 libconsole libcupsys2-gnutls10libcurl3-gnutls libdb4.0 libdb4.1 libdbus-glib-1-2 libdevmapper1.00 libdevmapper1.01 libdns11 libdns16 libdps1 libgc1 libgnutls10 libgnutls11 libgtk1.2 libgtk2.0-0 libgtk2.0-common libgtkspell0 libiw27 libiw28 liblame0 libmodplug0 libncurses5-dev libnewt0.51 liboggflac1 liboggflac3 libpcap0.7 libpci2 libpcap0.8 libreadline4 libsexy2 libsigc++-1.2-5c102 libspeex1 libstdc++5-3.3-dev libstdc++6-4.1-dev libtextwrap1 libxp6 libxtst6 libxvmc1 linux-kernel-headers lirc-modules-2.4.30-xbox
 
 N:
 ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 ndiswrapper-utils ndiswrapper-utils-1.1 netkit-inetd
@@ -206,7 +212,7 @@ T:
 tcsh type-handling
 
 X:
-x-window-system x-window-system-core xchat-text xfree86-common xlibs xlibs-data xorg xprt-common xserver-xorg-video-vga xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810  xutils xutils-dev
+x-window-system x-window-system-core xchat-text xfonts-100dpi xfree86-common xlibs xlibs-data xorg xprt-common xserver-xorg-video-vga xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810  xutils xutils-dev
 
 Y:
 yada
@@ -221,8 +227,6 @@ zlib1g-dev
 
 bin86* binutils* dpatch* fdutils* finger* flac* gcc* gcc-4.1* genisoimage* gettext* gettext-base* gftp-common* gftp-gtk* gftp-text* intltool-debian* patchutils* po-debconf* libaa1* libcdparanoia0* libcurl2* libdb1-compat* libdb2* patch
 
- 
-
 gconf2* klibc-utils* libao2* libavcodec0d* libcaca0* libcurl3* libdb3* libdirectfb-0.9-20* libdv4* libenchant1c2a* libevent1* libfaad2-0* libflac4* libflac6* libflac7* libgc1c2* libgcrypt7* libggi2*
   libglib1.2* libgmime-2.0-2* libgnet2.0-0* libgssapi2* libident* libisc7* liblockfile1* libltdl3* libmad0* libmagick9* libmikmod2* libmyspell3c2* libneon24* libnfsidmap2* libopencdk4* libpcre3* libperl5.8*
   libpostproc0d* librpcsecgss3* libsasl2* libsdl-image1.2* libsdl-mixer1.2* libsdl-ttf2.0-0* libsigc++-2.0-0c2a* libsmbclient* libssp0* libtasn1-2* libtheora0* libvolume-id0* libxvidcore2* xlibmesa-gl*
@@ -234,20 +238,8 @@ libgpgme11 ncurses-term alsa-utils* apt-listchanges* python* python-apt* python-
 
 cron logrotate libcupsys2 html2text language-env less libgtk2.0-bin libnss-db make python-minimal python2.4 python2.4-minimal time libdbus-1-3
 
- libatk1.0-data libatk1.0-0 libgtk2.0-0 libgtk2.0-common ifrename libiw28 libxvmc1 lirc-modules-2.4.30-xbox
-
- ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
-
-
- 
-
-
 imlib-base* imlib11 fontconfig* libpango1.0-0* libpango1.0-common libcairo2* libglib2.0-0 xlibmesa-dri libgl1-mesa-dri
-
-* 
 
 libdvdcss2 libdvdread3* lsdvd libgii0* libgii0-target-x libgpmg1 libmodplug0c2 libsysfs2* sysfsutils
 
-ftp bzip2 cpio cramfsprogs proll dmidecode
-
-esound-common xfonts-100dpi
+ftp bzip2 cpio cramfsprogs proll dmidecode 
