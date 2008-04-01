@@ -11,7 +11,7 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 == Esenciales ==
 Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 
-diff ed findutils gcc-4.1-base gnugp gpgv libedit2 libgcc1 sed sysv-rc-bootsplash
+bind9-host diff dnsutils ed findutils gcc-4.1-base gnugp gpgv libedit2 libgcc1 sed sysv-rc-bootsplash
 
 == Instalacion ==
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
@@ -58,7 +58,6 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
 || at || Delayed job execution and batch processing || Purgado || || ||
 || atlas3-base || Automatically Tuned Linear Algebra Software, generic shared|| Purgado || python2.3-numeric-ext, python2.3-pygame ||  ||
-|| bind9-host || Version of 'host' bundled with BIND 9.X||  || dnsutils || ||
 || bootsplash || Enables a graphical boot screen || Purgado || bootsplash-theme-xebian || Da problemas con los paquetes, inicio y apagado se quejan al no encontrarlo ||
 || bootsplahs-theme-xebian || The Default Xebian bootsplash them || Purgado || || bootsplash da problemas al actualizar, ademas de que hay que personalizarlo ||
 || cpp || The GNU C preprocessor (cpp) || Purgado || || ||
@@ -179,7 +178,7 @@ B:
 bc bin86 binutils bison build-essential bzip2
 
 C:
-cdparanoia cdrecord console-common console-tools cpio cpp-3.3 cramfsprogs cron
+cdparanoia cdrecord console-common console-tools cpio cramfsprogs cron
 
 D:
 db4.2-util dc debhelper debmake devscripts dmidecode doc-debian dpatch dpkg-dev
@@ -191,7 +190,7 @@ F:
 fakeroot fdutils finger flac flex fontconfig ftp
 
 G:
-g++ g++-3.3 g++-4.1 gcc gcc-3.3 gcc-3.3-base gcc-3.4-base gcc-4.1 gconf2 genisoimage gettext gettext-base gdb gnu-efi gftp gftp-common gftp-gtk gftp-text gpa
+g++ g++-3.3 g++-4.1 gcc gcc-3.3 gcc-3.3-base gcc-3.4-base gcc-4.1 gconf2 gconf2-common genisoimage gettext gettext-base gdb gnu-efi gftp gftp-common gftp-gtk gftp-text gpa
 
 H:
 hexedit hwdata hwsetup
@@ -203,7 +202,7 @@ K:
 kernel-package klibc-utils
 
 L:
-lame language-env lbxproxy less libaa1libatk1.0-data libao2 libatk1.0-0 libavcodec0d libc6-dev libcaca0 libcairo2 libcdparanoia0 libconsole libcupsys2 libcupsys2-gnutls10 libcurl2 libcurl3 libcurl3-gnutls libdb1-compat libdb2 libdb3 libdb4.0 libdb4.1 libdbus-glib-1-2 libdbus-1-3 libdevmapper1.00 libdevmapper1.01 libdirectfb-0.9-20 libdns11 libdns16 libdps1 libdv4 libdvdcss2 libdvdread3 libenchant1c2a libevent1 libfaad2-0 libflac4 libflac6 libflac7 libgii0 libgii0-target-x libg2c0 libgc1 libgc1c2 libgcrypt7 libggi2 libgl1-mesa-dri libglib1.2 libglib2.0-0 libgmime-2.0-2 libgnet2.0-0 libgnutls10 libgnutls11 libgpgme11 libgpmg1 libgssapi2 libgtk1.2 libgtk1.2-common libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtkspell0 libident libiw27 libiw28 libisc7 liblame0 liblockfile1 libltdl3 libmad0 libmagick9 libmikmod2 libmodplug0 libmodplug0c2 libmyspell3c2 libncurses5-dev libneon24 libnewt0.51 libnewt0.52 libnfsidmap2 libnss-db libopencdk4 liboggflac1 liboggflac3 libpango1.0-0 libpango1.0-common libpcap0.7 libpcap0.8 libpci2 libpcre3 libperl5.8 libreadline4 libsexy2 libsigc++-1.2-5c102 libspeex1 libstdc++5 libstdc++5-3.3-dev libstdc++6-4.1-dev libsysfs2 libtextwrap1 libxine1 libxp6 libxtst6 libxvmc1 linux-kernel-headers lirc-modules-2.4.30-xbox logrotate lsdvd lynx
+lame language-env lbxproxy less libaa1libatk1.0-data libao2 libatk1.0-0 libavcodec0d libc6-dev libcaca0 libcairo2 libcdparanoia0 libconsole libcucul0 libcupsys2 libcupsys2-gnutls10 libcurl2 libcurl3 libcurl3-gnutls libdb1-compat libdb2 libdb3 libdb4.0 libdb4.1 libdbus-glib-1-2 libdbus-1-3 libdevmapper1.00 libdevmapper1.01 libdirectfb-0.9-20 libdirectfb-0.9-25 libdns11 libdns16 libdps1 libdv4 libdvdcss2 libdvdread3 libenchant1c2a libevent1 libfaad2-0 libflac4 libflac6 libflac7 libgii0 libgii0-target-x libg2c0 libgc1 libgc1c2 libgcrypt7 libggi2 libgl1-mesa-dri libglib1.2 libglib2.0-0 libgmime-2.0-2 libgnet2.0-0 libgnutls10 libgnutls11 libgpgme11 libgpmg1 libgssapi2 libgtk1.2 libgtk1.2-common libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtkspell0 libidl0 libident libiw27 libiw28 libisc7 libklibc liblame0 liblockfile1 libltdl3 libmad0 libmagick9 libmikmod2 libmodplug0 libmodplug0c2 libmyspell3c2 libncurses5-dev libneon24 libnewt0.51 libnewt0.52 libnfsidmap2 libnss-db libopencdk4 libogg0 liboggflac1 liboggflac3 libpango1.0-0 libpango1.0-common libpcap0.7 libpcap0.8 libpci2 libpcre3 libperl5.8 libreadline4 libsasl2 libsexy2 libsdl1.2debian libsdl1.2debian-oss libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0-0 libsigc++-1.2-5c102 libsigc++-2.0-0c2a libsmbclient libspeex1 libssp0 libstdc++5 libstdc++5-3.3-dev libstdc++6-4.1-dev libsvga1 libsysfs2 libtextwrap1 libvorbisenc2 libvorbisfile3 libxine1 libxp6 libxtst6 libxvidcore2 libxvmc1 linux-kernel-headers lirc-modules-2.4.30-xbox logrotate lsdvd lynx
 
 M:
 m4 make man-db mkisofs modconf mtr-tyni
@@ -244,4 +243,4 @@ zlib1g-dev
 
 
 
-libpostproc0d* librpcsecgss3* libsasl2* libsdl-image1.2* libsdl-mixer1.2* libsdl-ttf2.0-0* libsigc++-2.0-0c2a* libsmbclient* libssp0* libtasn1-2* libtheora0* libvolume-id0* libxvidcore2*  liba52-0.7.4* libartsc0* libcucul0* libesd0* libgconf2-4* libgcrypt1* libglu1-mesa* libgsm1* libidn11* libjasper-1.701-1* libklibc* libsmpeg0* libssl0.9.7* libsysfs1* libvorbisenc2* libvorbisfile3 gconf2-common* libaudiofile0* liborbit2* libsdl1.2debian* libvorbis0a* libxml2 libidl0* libogg0* libsdl1.2debian-oss libdirectfb-0.9-25* libsvga1 
+libpostproc0d* librpcsecgss3* * * * libtasn1-2* libtheora0* libvolume-id0**  liba52-0.7.4* libartsc0* * libesd0* libgconf2-4* libgcrypt1* libglu1-mesa* libgsm1* libidn11* libjasper-1.701-1* * libsmpeg0* libssl0.9.7* libsysfs1*  * libaudiofile0* liborbit2* * libvorbis0a* libxml2
