@@ -49,46 +49,61 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 aalib1 at atlas3-base
 
 ===B===
-Bochsbios bootsplash bootsplahs-theme-xebian busybox
+base-config bc bin86 bittornado bison bochsbios bootsplash bootsplahs-theme-xebian build-essential busybox
 
 ===C===
-cpp cpp-3.3 cpp-4.1
+cdparanoia cdrecord cpp cpp-3.3 cpp-4.1 cvs
 
 ===D===
 dc db4.2-util doc-debian
 
+===E===
+exim4 exim4-base exim4-config exim4-daemon-light
+
 ===F===
-freevo freevo-media
+fdutils finger flac flex freevo freevo-media
 
 ===G===
-g++ gcc groff-base
+g++ gcc gdb gftp gftp-common gftp-gtk gftp-text gnu-efi groff-base
+
+===H===
+hexedit
 
 ==I==
-ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
+iamerican ibritish info ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
 
 ===L===
-lbxproxy libxine1
+lbxproxy libxine1 lpr lynx
 
 ===M===
-m4 mplayer-386 mplayer-fonts mozilla-firefox
+m4 mailx man-db manpages manpages-dev mplayer-386 mplayer-fonts mozilla-firefox mutt
 
 ===N===
-ncftp
+ncftp nmap nmapfe nvi
 
 ===P===
-proxymngr
+pan ppp pppconfig pppoe pppoeconf proxymngr
 
 ==Q==
 qemu
 
-===S===
-samba slang1
+===R===
+ratpoison reportbug
 
-==W==
-wpasupplicant 
+===S===
+samba setserial sgml-base slang1 speex strace
+
+===T===
+tasksel tcl8.4 tcsh telnet texinfo transfig twm
+
+===V===
+vacation vim vim-common vgabios vorbis-tools
+
+===W===
+w3m wamerican whois wpasupplicant
 
 ===X===
-xchat xchat-common xchat-text xmms xmms-kjofol xmms-kjofol-skins xvfb
+xchat xchat-common xchat-text xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xvfb
 
 ===K===
 klogd
@@ -107,72 +122,6 @@ sysklogd
 
 ===X===
 x-window-system xdm xfs x-window-system xfwp xprint xprint-common xprt xprt-xprintorg xserver-common xserver-xorg-video-all xserver-xorg-video-apm xtdesktop xterm
-
-|| base-config || Debian base system configurator || Purgado || || Script de configuracion inicial de Debian ||
-|| bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
-|| bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
-|| bittornado ||  || Purgado || || ||
-|| bison || A parser generator that is compatible with YACC || Purgado || || ||
-|| build-essential ||  || Purgado || || ||
-|| cparanoia || An audio extracting tool for sampling CD's || Purgado || || ||
-|| cdrecord || command line CD writing tool || Purgado || || ||
-|| cvs || Concurrent Versions System || Purgado || || ||
-|| exim4 ||  || Purgado || || ||
-|| exim4-base ||  || Purgado || || ||
-|| exim4-config ||  || Purgado || || ||
-|| exim4-daemon-light ||  || Purgado || || ||
-|| fdutils ||  || Purgado || || ||
-|| finger ||  || Purgado || || ||
-|| flac || Free Lossless audio codec || Purgado || || ||
-|| flex || A fast lexical analyzer generator. || Purgado || || ||
-|| gdb ||  || Purgado || || ||
-|| gftp ||  || Purgado || || ||
-|| gftp-common ||  || Purgado || || ||
-|| gftp-gtk ||  || Purgado || || ||
-|| gftp-text ||  || Purgado || || ||
-|| gnu-efi ||  || Purgado || || ||
-|| hexedit ||  || Purgado || || ||
-|| iamerican || An American English dictionary for ispell || Purgado || || ||
-|| ibritish || A British English dictionary for ispell || Purgado || || ||
-|| info ||  || Purgado || || ||
-|| lpr || BSD lpr/lpd line printer spooling system || Purgado || || ||
-|| lynx || Text-mode WWW Browser || Purgado || || ||
-|| mailx || A simple mail user agent || Purgado || || ||
-|| man-db ||  || Purgado || || ||
-|| manpages || Manual pages about using a GNU/Linux system || Purgado || || ||
-|| manpages-dev || Manual pages about using GNU/Linux for development || Purgado || || ||
-|| mutt || Text-based mailreader supporting MIME, GPG, PGP and threading || Purgado || || ||
-|| nmap ||  || Purgado || || ||
-|| nmapfe ||  || Purgado || || ||
-|| nvi || 4.4BSD re-implementation of vi || Purgado || || ||
-|| pan || A Newsreader based on GTK2, which looks like Forte Agent || Purgado || || ||
-|| ppp || Point-to-Point Protocol (PPP) daemon || Purgado || || ||
-|| pppconfig || A text menu based utility for configuring PPP || Purgado || || ||
-|| pppoe || PPP over Ethernet driver || Purgado || || ||
-|| pppoeconf || configures PPPoE/ADSL connections || Purgado || || ||
-|| ratpoison ||  || Purgado || || ||
-|| reportbug || Reports bugs in the debian contribution || Purgado || || ||
-|| tasksel ||  || Purgado || || ||
-|| tcl8.4 ||  || Purgado || || ||
-|| tcsh ||  || Purgado || || ||
-|| telnet || The telnet client || Purgado || || ||
-|| texinfo ||  || Purgado || || ||
-|| transfig ||  || Purgado || || ||
-|| twm ||  || Purgado || || ||
-|| setserial || Controls configuration of serial ports || Purgado || || ||
-|| sgml-base ||  || Purgado || || ||
-|| speex ||  || Purgado || || ||
-|| strace ||  || Purgado || || ||
-|| vacation ||  || Purgado || || ||
-|| vim-common || Vi IMproved - Common files || Purgado || || ||
-|| vgabios ||  || Purgado || || ||
-|| w3m || WWW browseable pager with excellent tables/frames support || Purgado || || ||
-|| wamerican || American English dictionary words for /usr/share/dict || Purgado || || ||
-|| vim || Vi IMproved - enhanced vi editor || Purgado || || ||
-|| vorbis-tools || Several Vorbis Tools || Purgado || || ||
-|| whois ||  || Purgado || || ||
-|| xml-core ||  || Purgado || || ||
-|| xine-ui ||  || Purgado || || ||
 
 == Etch ==
 
