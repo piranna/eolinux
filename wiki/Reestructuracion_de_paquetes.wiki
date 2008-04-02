@@ -40,11 +40,11 @@ tzdata
 ==W==
 wspanish
 
+
 = Elimininacion =
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
 ==Sarge==
-
 ===A===
 aalib1 at atlas3-base
 
@@ -72,17 +72,20 @@ hexedit
 ==I==
 iamerican ibritish info ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
 
+===K===
+klogd
+
 ===L===
-lbxproxy libxine1 lpr lynx
+laptop-detect lbxproxy libxine1 lpr lynx
 
 ===M===
 m4 mailx man-db manpages manpages-dev mplayer-386 mplayer-fonts mozilla-firefox mutt
 
 ===N===
-ncftp nmap nmapfe nvi
+ncftp nfs-common nmap nmapfe nvi
 
 ===P===
-pan ppp pppconfig pppoe pppoeconf proxymngr
+pan ppp pppconfig pppoe pppoeconf portmap procmail proxymngr
 
 ==Q==
 qemu
@@ -91,7 +94,7 @@ qemu
 ratpoison reportbug
 
 ===S===
-samba setserial sgml-base slang1 speex strace
+samba setserial sgml-base slang1 speex strace sysklogd
 
 ===T===
 tasksel tcl8.4 tcsh telnet texinfo transfig twm
@@ -103,28 +106,10 @@ vacation vim vim-common vgabios vorbis-tools
 w3m wamerican whois wpasupplicant
 
 ===X===
-xchat xchat-common xchat-text xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xvfb
+x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xserver-xorg-video-all xserver-xorg-video-apm xtdesktop xterm xvfb
 
-===K===
-klogd
-
-===L===
-laptop-detect
-
-===N===
-nfs-common
-
-===P===
-portmap procmail
-
-===S===
-sysklogd
-
-===X===
-x-window-system xdm xfs x-window-system xfwp xprint xprint-common xprt xprt-xprintorg xserver-common xserver-xorg-video-all xserver-xorg-video-apm xtdesktop xterm
 
 == Etch ==
-
 ===A===
 alsa-utils apt-listchanges aptitude
 
