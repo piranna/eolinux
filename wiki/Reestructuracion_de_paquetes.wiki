@@ -106,7 +106,7 @@ vacation vim vim-common vgabios vorbis-tools
 w3m wamerican whois wpasupplicant
 
 ===X===
-x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xserver-xorg-video-all xserver-xorg-video-apm xtdesktop xterm xvfb
+x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xtdesktop xterm xvfb
 
 
 == Etch ==
@@ -114,10 +114,10 @@ x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms
 alsa-utils apt-listchanges aptitude
 
 ===B===
-bc bin86 binutils bison build-essential bzip2
+binutils bzip2
 
 ===C===
-cdparanoia cdrecord console-common console-tools cpio cramfsprogs cron
+console-common console-tools cpio cramfsprogs cron
 
 ===D===
 debhelper debmake devscripts dmidecode dpatch dpkg-dev
@@ -126,52 +126,52 @@ debhelper debmake devscripts dmidecode dpatch dpkg-dev
 esound-common
 
 ===F===
-fakeroot fdutils finger flac flex fontconfig ftp
+fakeroot fontconfig ftp
 
 ===G===
-g++-3.3 g++-4.1 gcc gcc-3.3 gcc-3.3-base gcc-3.4-base gcc-4.1 gconf2 gconf2-common genisoimage gettext gettext-base gdb gnu-efi gftp gftp-common gftp-gtk gftp-text gpa
+g++-3.3 g++-4.1 gcc-3.3 gcc-3.3-base gcc-3.4-base gcc-4.1 gconf2 gconf2-common genisoimage gettext gettext-base gpa
 
 ===H===
-hexedit hwdata hwsetup
+hwdata hwsetup
 
 ===I===
-iceweasel ifrename imlib-base imlib11 info intltool-debian ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
+iceweasel ifrename imlib-base imlib11 intltool-debian
 
 ===K===
 kernel-package klibc-utils
 
 ===L===
-lame language-env lbxproxy less liba52-0.7.4 libaa1libatk1.0-data libao2 libartsc0 libatk1.0-0 libaudiofile0 libavcodec0d libc6-dev libcaca0 libcairo2 libcdparanoia0 libconsole libcucul0 libcupsys2 libcupsys2-gnutls10 libcurl2 libcurl3 libcurl3-gnutls libdb1-compat libdb2 libdb3 libdb4.0 libdb4.1 libdbus-glib-1-2 libdbus-1-3 libdevmapper1.00 libdevmapper1.01 libdirectfb-0.9-20 libdirectfb-0.9-25 libdns11 libdns16 libdps1 libdv4 libdvdcss2 libdvdread3 libenchant1c2a libesd0 libevent1 libfaad2-0 libflac4 libflac6 libflac7 libgii0 libgii0-target-x libg2c0 libgc1 libgc1c2 libgconf2-4 libgcrypt1 libgcrypt7 libggi2 libgl1-mesa-dri libglib1.2 libglib2.0-0 libglu1-mesa libgmime-2.0-2 libgnet2.0-0 libgnutls10 libgnutls11 libgpgme11 libgpmg1 libgssapi2 libgsm1 libgtk1.2 libgtk1.2-common libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtkspell0 libidl0 libident libidn11 libiw27 libiw28 libisc7 libjasper-1.701-1 libklibc liblame0 liblockfile1 libltdl3 libmad0 libmagick9 libmikmod2 libmodplug0 libmodplug0c2 libmyspell3c2 libncurses5-dev libneon24 libnewt0.51 libnewt0.52 libnfsidmap2 libnss-db libogg0 liboggflac1 liboggflac3 libopencdk4 liborbit2 libpango1.0-0 libpango1.0-common libpcap0.7 libpcap0.8 libpci2 libpcre3 libperl5.8 libpostproc0d libreadline4 librpcsecgss3 libsasl2 libsexy2 libsdl1.2debian libsdl1.2debian-oss libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0-0 libsigc++-1.2-5c102 libsigc++-2.0-0c2a libsmbclient libsmpeg0 libspeex1 libssl0.9.7 libssp0 libstdc++5 libstdc++5-3.3-dev libstdc++6-4.1-dev libsvga1 libsysfs1 libsysfs2 libtasn1-2 libtextwrap1 libtheora0 libvolume-id0 libvorbis0a libvorbisenc2 libvorbisfile3 libxine1 libxml2 libxp6 libxtst6 libxvidcore2 libxvmc1 linux-kernel-headers lirc-modules-2.4.30-xbox logrotate lsdvd lynx
+lame language-env less liba52-0.7.4 libaa1 libatk1.0-data libao2 libartsc0 libatk1.0-0 libaudiofile0 libavcodec0d libc6-dev libcaca0 libcairo2 libcdparanoia0 libconsole libcucul0 libcupsys2 libcupsys2-gnutls10 libcurl2 libcurl3 libcurl3-gnutls libdb1-compat libdb2 libdb3 libdb4.0 libdb4.1 libdbus-glib-1-2 libdbus-1-3 libdevmapper1.00 libdevmapper1.01 libdirectfb-0.9-20 libdirectfb-0.9-25 libdns11 libdns16 libdps1 libdv4 libdvdcss2 libdvdread3 libenchant1c2a libesd0 libevent1 libfaad2-0 libflac4 libflac6 libflac7 libgii0 libgii0-target-x libg2c0 libgc1 libgc1c2 libgconf2-4 libgcrypt1 libgcrypt7 libggi2 libgl1-mesa-dri libglib1.2 libglib2.0-0 libglu1-mesa libgmime-2.0-2 libgnet2.0-0 libgnutls10 libgnutls11 libgpgme11 libgpmg1 libgssapi2 libgsm1 libgtk1.2 libgtk1.2-common libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtkspell0 libidl0 libident libidn11 libiw27 libiw28 libisc7 libjasper-1.701-1 libklibc liblame0 liblockfile1 libltdl3 libmad0 libmagick9 libmikmod2 libmodplug0 libmodplug0c2 libmyspell3c2 libncurses5-dev libneon24 libnewt0.51 libnewt0.52 libnfsidmap2 libnss-db libogg0 liboggflac1 liboggflac3 libopencdk4 liborbit2 libpango1.0-0 libpango1.0-common libpcap0.7 libpcap0.8 libpci2 libpcre3 libperl5.8 libpostproc0d libreadline4 librpcsecgss3 libsasl2 libsexy2 libsdl1.2debian libsdl1.2debian-oss libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0-0 libsigc++-1.2-5c102 libsigc++-2.0-0c2a libsmbclient libsmpeg0 libspeex1 libssl0.9.7 libssp0 libstdc++5 libstdc++5-3.3-dev libstdc++6-4.1-dev libsvga1 libsysfs1 libsysfs2 libtasn1-2 libtextwrap1 libtheora0 libvolume-id0 libvorbis0a libvorbisenc2 libvorbisfile3 libxml2 libxp6 libxtst6 libxvidcore2 libxvmc1 linux-kernel-headers lirc-modules-2.4.30-xbox logrotate lsdvd
 
 ===M===
-make man-db mkisofs modconf mtr-tyni
+make mkisofs modconf mtr-tyni
 
 ===N===
-ncftp ncurses-term ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 ndiswrapper-utils ndiswrapper-utils-1.1 nmap nmapfe netkit-inetd
+ncurses-term ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 ndiswrapper-utils ndiswrapper-utils-1.1 netkit-inetd
 
 ===O===
 openhackware
 
 ===P===
-pan patch patchutils pciutils po-debconf proll proxymngr python python-apt python-central python-minimal python-newt python-support python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted python2.4 python2.4-minimal
+patch patchutils pciutils po-debconf proll python python-apt python-central python-minimal python-newt python-support python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted python2.4 python2.4-minimal
 
 ===R===
-ratpoison rcconf rcs reportbug
+rcconf rcs
 
 ===S===
-setserial sgml-base sharutils slang1 slang1a-utf8 speex strace sysfsutils
+sharutils slang1a-utf8 sysfsutils
 
 ===T===
-tcl8.4 tcsh telnet texinfo time traceroute transfig type-handling twm
+time traceroute type-handling
 
 ===V===
-vacation vgabios vim vim-common vim-runtime
+vim-runtime
 
 ===W===
-w3m whiptail whois winbind wireless-tools wodim
+whiptail winbind wireless-tools wodim
 
 ===X===
-x-window-system x-window-system-core xchat-text xfonts-100dpi xfree86-common xine xine-ui xlibmesa-dri xlibmesa-gl xlibmesa-glu xlibs xlibs-data xml-core xnest xorg xprt-common xserver-xorg-video-vga xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810 xterm xutils xutils-dev
+x-window-system-core xfonts-100dpi xfree86-common xine xlibmesa-dri xlibmesa-gl xlibmesa-glu xlibs xlibs-data xnest xorg xprt-common xserver-xorg-video-vga xserver-xorg-video-voodoo xserver-xorg-video-via xserver-xorg-video-trident xserver-xorg-video-tga xserver-xorg-video-tdfx xserver-xorg-video-sisusb xserver-xorg-video-sis xserver-xorg-video-siliconmotion xserver-xorg-video-savage xserver-xorg-video-s3virge xserver-xorg-video-s3 xserver-xorg-video-rendition xserver-xorg-video-newport xserver-xorg-video-neomagic xserver-xorg-video-mga xserver-xorg-video-ati xserver-xorg-video-chips xserver-xorg-video-cirrus xserver-xorg-video-dummy xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-apm xserver-xorg-video-ark xserver-xorg-video-cyrix xserver-xorg-video-glint xserver-xorg-video-imstt xserver-xorg-video-nsc xserver-xorg-video-tseng xserver-xorg-video-i128 xserver-xorg-video-i740 xserver-xorg-video-i810 xutils xutils-dev
 
 ===Y===
 yada
