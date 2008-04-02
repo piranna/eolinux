@@ -40,33 +40,6 @@ tzdata
 ==W==
 wspanish
 
-= Metapaquetes =
-Paquetes que engloban a otros como conjunto por lotes (juegos, wireless...) o que serian interesantes fuera de la instalacion basica
-
-==B==
-Bochsbios
-
-==F==
-freevo freevo-media
-
-==I==
-ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
-
-==M==
-mplayer-386 mplayer-fonts mozilla-firefox
-
-==Q==
-qemu
-
-==S==
-samba
-
-==W==
-wpasupplicant 
-
-==X==
-xchat xchat-common xchat-text xmms xmms-kjofol xmms-kjofol-skins
-
 = Elimininacion =
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
@@ -76,7 +49,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 at atlas3-base
 
 ===B===
-bootsplash bootsplahs-theme-xebian busybox
+Bochsbios bootsplash bootsplahs-theme-xebian busybox
 
 ===C===
 cpp cpp-3.3 cpp-4.1
@@ -84,14 +57,20 @@ cpp cpp-3.3 cpp-4.1
 ===D===
 dc db4.2-util doc-debian
 
+===F===
+freevo freevo-media
+
 ===G===
 g++ gcc groff-base
+
+==I==
+ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
 
 ===L===
 lbxproxy libxine1
 
 ===M===
-m4
+m4 mplayer-386 mplayer-fonts mozilla-firefox
 
 ===N===
 ncftp
@@ -99,14 +78,19 @@ ncftp
 ===P===
 proxymngr
 
+==Q==
+qemu
+
 ===S===
-slang1
+samba slang1
+
+==W==
+wpasupplicant 
 
 ===X===
-xvfb
+xchat xchat-common xchat-text xmms xmms-kjofol xmms-kjofol-skins xvfb
 
 klogd laptop-detect nfs-common portmap procmail sysklogd
-
  ||  || Purgado || || ||
 || x-window-system || X Window System || Purgado || || Metapaquete ||
 || xdm || X display manager || Purgado || || ||
