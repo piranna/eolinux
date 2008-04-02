@@ -46,7 +46,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 ==Sarge==
 
 ===A===
-at atlas3-base
+aalib1 at atlas3-base
 
 ===B===
 Bochsbios bootsplash bootsplahs-theme-xebian busybox
@@ -90,25 +90,24 @@ wpasupplicant
 ===X===
 xchat xchat-common xchat-text xmms xmms-kjofol xmms-kjofol-skins xvfb
 
-klogd laptop-detect nfs-common portmap procmail sysklogd
- ||  || Purgado || || ||
-|| x-window-system || X Window System || Purgado || || Metapaquete ||
-|| xdm || X display manager || Purgado || || ||
-|| xfs || X font server || Purgado || x-window-system|| Da problemas en Etch con las X ||
-|| xfwp || X firewall proxy server || Purgado || || ||
-|| xprint ||  || Purgado || || ||
-|| xprint-common ||  || Purgado || || ||
-|| xprt ||  || Purgado || || ||
-|| xprt-xprintorg ||  || Purgado || || ||
-|| xserver-common ||  || Purgado || || ||
-|| xserver-xorg-video-all ||  || Purgado || || ||
-|| xserver-xorg-video-apm || X.Org X server -- APM display driver || Purgado || || ||
-|| xtdesktop ||  || Purgado || || Iconos del escritorio ||
-|| xterm ||  || Purgado || || ||
+===K===
+klogd
 
-=== Morralla ===
-|| *Paquete* || *Descripcion* || *Estado* || *Dependen* || *Notas* ||
-|| aalib1 || ascii art library || Purgado || freevo, freevo-media, mplayer-386, mplayer-fonts || ||
+===L===
+laptop-detect
+
+===N===
+nfs-common
+
+===P===
+portmap procmail
+
+===S===
+sysklogd
+
+===X===
+x-window-system xdm xfs x-window-system xfwp xprint xprint-common xprt xprt-xprintorg xserver-common xserver-xorg-video-all xserver-xorg-video-apm xtdesktop xterm
+
 || base-config || Debian base system configurator || Purgado || || Script de configuracion inicial de Debian ||
 || bc || The GNU bc arbritary precision calculator language|| Purgado ||  || ||
 || bin86 || 16-bit x86 assembler and loader|| Purgado ||  || ||
