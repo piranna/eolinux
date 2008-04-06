@@ -18,86 +18,36 @@ Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 = Instalacion =
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
 
-==D==
-dash
-
-==I==
-ispanish
-
-==T==
-tzdata
-
-==W==
-wspanish
-
+|| D || dash ||
+|| I || ispanish ||
+|| T || tzdata ||
+|| W || wspanish ||
 
 = Elimininacion =
 Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos muy particulares (servidor de impresion, P2P...) o que son subceptibles a eliminacion
 
 ==Sarge==
-===A===
-aalib1 at atlas3-base
-
-===B===
-base-config bc bin86 bittornado bison bochsbios bootsplash bootsplahs-theme-xebian build-essential busybox
-
-===C===
-cdparanoia cdrecord cpp cpp-3.3 cpp-4.1 cvs
-
-===D===
-dc db4.2-util doc-debian
-
-===E===
-exim4 exim4-base exim4-config exim4-daemon-light
-
-===F===
-fdutils finger flac flex freevo freevo-media
-
-===G===
-g++ gcc gdb gftp gftp-common gftp-gtk gftp-text gnu-efi groff-base
-
-===H===
-hexedit
-
-==I==
-iamerican ibritish info ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8
-
-===K===
-klogd
-
-===L===
-laptop-detect lbxproxy libxine1 lpr lynx
-
-===M===
-m4 mailx man-db manpages manpages-dev mplayer-386 mplayer-fonts mozilla-firefox mutt
-
-===N===
-ncftp nfs-common nmap nmapfe nvi
-
-===P===
-pan ppp pppconfig pppoe pppoeconf portmap procmail proxymngr
-
-==Q==
-qemu
-
-===R===
-ratpoison reportbug
-
-===S===
-samba setserial sgml-base slang1 speex strace sysklogd
-
-===T===
-tasksel tcl8.4 tcsh telnet texinfo transfig twm
-
-===V===
-vacation vim vim-common vgabios vorbis-tools
-
-===W===
-w3m wamerican whois wpasupplicant
-
-===X===
-x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xtdesktop xterm xvfb
-
+|| A || aalib1 at atlas3-base ||
+|| B || base-config bc bin86 bittornado bison bochsbios bootsplash bootsplahs-theme-xebian build-essential busybox ||
+|| C || cdparanoia cdrecord cpp cpp-3.3 cpp-4.1 cvs ||
+|| D || dc db4.2-util doc-debian ||
+|| E || exim4 exim4-base exim4-config exim4-daemon-light ||
+|| F || fdutils finger flac flex freevo freevo-media ||
+|| G || g++ gcc gdb gftp gftp-common gftp-gtk gftp-text gnu-efi groff-base ||
+|| H || hexedit ||
+|| I || iamerican ibritish info ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8 ||
+|| K || klogd ||
+|| L || laptop-detect lbxproxy libxine1 lpr lynx ||
+|| M || m4 mailx man-db manpages manpages-dev mplayer-386 mplayer-fonts mozilla-firefox mutt ||
+|| N || ncftp nfs-common nmap nmapfe nvi ||
+|| P || pan ppp pppconfig pppoe pppoeconf portmap procmail proxymngr ||
+|| Q || qemu ||
+|| R || ratpoison reportbug ||
+|| S || samba setserial sgml-base slang1 speex strace sysklogd ||
+|| T || tasksel tcl8.4 tcsh telnet texinfo transfig twm ||
+|| V || vacation vim vim-common vgabios vorbis-tools ||
+|| W || w3m wamerican whois wpasupplicant ||
+|| X || x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xtdesktop xterm xvfb ||
 
 == Etch ==
 ===A===
