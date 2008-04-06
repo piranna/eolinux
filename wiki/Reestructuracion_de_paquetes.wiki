@@ -76,4 +76,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 
 == Candidatos a eliminacion ==
 
-bind9-host bootsplash bootsplash-theme-xebian dnsutils
+|| bind9-host || ||
+|| bootsplash || ||
+|| bootsplash-theme-xebian || Depende de bootsplash ||
+|| dnsutils || Depende de bind9-host ||
