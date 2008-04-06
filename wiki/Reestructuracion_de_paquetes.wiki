@@ -65,7 +65,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || N || ncurses-term ndiswrapper-common ndiswrapper-modules-2.4.31-xbox ndiswrapper-modules-2.6.11.8 ndiswrapper-utils ndiswrapper-utils-1.1 netkit-inetd ||
 || O || openhackware ||
 || P || patch patchutils pciutils po-debconf proll python python-apt python-central python-minimal python-newt python-support python2.3 python2.3-numeric-ext python2.3-pygame python2.3-twisted python2.4 python2.4-minimal ||
-R || rcconf rcs ||
+|| R || rcconf rcs ||
 || S || sharutils slang1a-utf8 sysfsutils ||
 || T || time traceroute type-handling ||
 || V || vim-runtime ||
