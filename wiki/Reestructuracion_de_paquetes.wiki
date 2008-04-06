@@ -4,26 +4,16 @@ Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 = Esenciales =
 Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 
-==B==
-bind9-host
-
-==D==
-diff dnsutils
-
-==E==
-ed
-
-==F==
-findutils
-
-==G==
-gcc-4.1-base gnugp gpgv
-
-==L==
-libc6 libedit2 libgcc1 locales
-
-==S==
-sed sysv-rc-bootsplash
+|| A || apt ||
+|| B || base-files base-passwd bash ||
+|| C || coreutils ||
+|| D || debianutils diff dpkg ||
+|| E || ed ||
+|| F || findutils ||
+|| G || gcc-4.1-base gnugp gpgv gzip ||
+|| I || initscripts ||
+|| L || libc6 libedit2 libgcc1 locales ||
+|| S || sed sysv-rc-bootsplash sysvinit ||
 
 = Instalacion =
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
@@ -111,13 +101,13 @@ x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms
 
 == Etch ==
 ===A===
-alsa-utils apt-listchanges aptitude
+alsa-utils apt-listchanges apt-utils aptitude aspell
 
 ===B===
-binutils bzip2
+binutils bsdmainutils bzip2
 
 ===C===
-console-common console-tools cpio cramfsprogs cron
+ca-certificates cdbs console-common console-data console-tools cpio cramfsprogs cron
 
 ===D===
 debhelper debmake devscripts dmidecode dpatch dpkg-dev
@@ -178,3 +168,7 @@ yada
 
 ===Z===
 zlib1g-dev
+
+== Candidatos a eliminacion ==
+
+bind9-host bootsplash bootsplash-theme-xebian dnsutils
