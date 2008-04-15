@@ -9,12 +9,15 @@ Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 || A || apt ||
 || B || base-files base-passwd bash ||
 || C || coreutils ||
-|| D || debianutils diff dpkg ||
+|| D || debian-archive-keyring debianutils diff dpkg ||
 || E || ed ||
 || F || findutils ||
 || G || gcc-4.1-base gnugp gpgv gzip ||
+|| H || hostname ||
 || I || initscripts ||
-|| L || libc6 libedit2 libgcc1 locales ||
+|| L || libc6 libedit2 libgcc1 locales login lsb-base ||
+|| M || mawk mktemp mount ||
+|| N || ncurses-base ncurses-bin ||
 || S || sed sysv-rc-bootsplash sysvinit ||
 
 = Instalacion =
@@ -32,16 +35,17 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || A || aalib1 at atlas3-base ||
 || B || base-config bc bin86 bittornado bison bochsbios bootsplash bootsplahs-theme-xebian build-essential busybox ||
 || C || cdparanoia cdrecord cpp cpp-3.3 cpp-4.1 cvs ||
-|| D || dc db4.2-util doc-debian ||
-|| E || eterm exim4 exim4-base exim4-config exim4-daemon-light ||
-|| F || fdutils finger flac flex fluxbox-theme-xebian freevo freevo-media ||
+|| D || dc db4.2-util debconf-utils doc-debian dselect ||
+|| E || ed eterm exim4 exim4-base exim4-config exim4-daemon-light ||
+|| F || fbset fdutils finger flac flex fluxbox-theme-xebian freevo freevo-media ||
 || G || g++ gcc gdb gftp gftp-common gftp-gtk gftp-text gnu-efi groff-base ||
 || H || hexedit ||
 || I || iamerican ibritish info ipw2100-modules-2.6.11.8 ipw2200-modules-2.6.11.8 ||
 || K || klogd ||
 || L || laptop-detect lbxproxy libast2 libid3tag0 libimlib2 libtiff4 libungif4g libxine1 lpr lynx ||
-|| M || m4 mailx man-db manpages manpages-dev mplayer-386 mplayer-fonts mozilla-firefox mutt ||
+|| M || m4 mailx makedev man-db manpages manpages-dev mime-support mplayer-386 mpack mplayer-fonts module-assistant module-init-tools mozilla-firefox mtools mutt ||
 || N || ncftp nfs-common nmap nmapfe nvi ||
+|| O || openssl ||
 || P || pan ppp pppconfig pppoe pppoeconf portmap procmail proxymngr ||
 || Q || qemu ||
 || R || ratpoison reportbug ||
@@ -82,9 +86,29 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || bootsplash || ||
 || bootsplash-theme-xebian || Depende de bootsplash ||
 || dnsutils || Depende de bind9-host ||
+|| debsums ||  ||
+|| devfsd ||  ||
+|| hdparm ||  |
+|| menu ||  ||
+
+== Probables de ser eliminados ==
+
+|| dictionaries-common || ¿realmente es necesario? son 10 megas... ||
+|| gettext || deborphan depende de el ||
+|| hotplug ||  ||
+|| iptables || ¿realmente lo necesitamos? ||
+|| locales || ¿realmente es necesario? son 10 megas... ||
 
 = Sustituciones =
 
 || *Actual* || *Propuesto* ||
 || *fluxbox* fluxbox-theme-xebian || *matchbox-window-manager* libmatchbox1 libstartup-notification0 ||
 || *xvkbd* xaw3dg || *matchbox-keyboard* libfakekey0 ||
+
+= Exclusivos =
+== PC ==
+|| lilo ||
+|| mbr ||
+
+== XBox ==
+|| nv-drv-xbox ||
