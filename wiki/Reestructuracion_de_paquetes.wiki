@@ -1,7 +1,7 @@
 #labels Paquetes
 Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 
-Tamaño actual: 385 megas
+Tamaño actual: 371 megas
 
 = Esenciales =
 Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
@@ -18,7 +18,10 @@ Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 || L || libc6 libedit2 libgcc1 locales login lsb-base ||
 || M || mawk mktemp mount ||
 || N || ncurses-base ncurses-bin ||
-|| S || sed sysv-rc-bootsplash sysvinit ||
+|| P || perl-base ||
+|| S || sed sysv-rc sysv-rc-bootsplash sysvinit sysvinit-utils ||
+|| T || tar ||
+|| U || util-linux ||
 
 = Instalacion =
 Paquetes necesarios para EOLinuX (basicamente, personalizaciones y optimizaciones)
@@ -48,12 +51,14 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || O || openssl ||
 || P || pan ppp pppconfig pppoe pppoeconf portmap procmail proxymngr ||
 || Q || qemu ||
-|| R || ratpoison reportbug ||
-|| S || samba setserial sgml-base slang1 speex strace sysklogd ||
+|| R || rar ratpoison reportbug ||
+|| S || samba setserial sgml-base slang1 speex squashfs-tools strace sysklogd ||
 || T || tasksel tcl8.4 tcsh telnet texinfo transfig twm ||
+|| U || unrar unzip ||
 || V || vacation vim vim-common vgabios vorbis-tools ||
 || W || w3m wamerican whois wpasupplicant ||
-|| X || x-window-system xchat xchat-common xchat-text xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xtdesktop xvfb ||
+|| X || x-window-system xchat xchat-common xchat-text xcursor-themes xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xtdesktop xvfb ||
+|| Z  || zip ||
 
 == Etch ==
 || A || alsa-utils apt-listchanges apt-utils aptitude aspell ||
@@ -90,6 +95,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || devfsd ||  ||
 || hdparm ||  |
 || menu ||  ||
+|| procps || depende de hotplug ||
 
 == Probables de ser eliminados ==
 
@@ -111,4 +117,10 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || mbr ||
 
 == XBox ==
-|| nv-drv-xbox ||
+|| N || nv-drv-xbox ||
+|| R || raincoat ||
+|| X || xbox-blink xbox-installer xboxdumper xboxfbctl xboxhdtool xboxinfo xbv ||
+
+== Instalacion ==
+|| pc-installer ||
+|| xserver-xorg-video-vmware ||
