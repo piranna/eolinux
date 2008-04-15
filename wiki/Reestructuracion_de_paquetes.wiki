@@ -1,6 +1,8 @@
 #labels Paquetes
 Reestructuracion de los paquetes de Xebian para adaptarlos a EOLinuX
 
+Tamaño actual: 385 megas
+
 = Esenciales =
 Paquetes que NO se deben borrar (o no se pueden porque el sistema se queja):
 
