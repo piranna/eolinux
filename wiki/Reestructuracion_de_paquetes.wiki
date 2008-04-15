@@ -57,7 +57,7 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 || U || unrar unzip ||
 || V || vacation vim vim-common vgabios vorbis-tools ||
 || W || w3m wamerican whois wpasupplicant ||
-|| X || x-window-system xchat xchat-common xchat-text xcursor-themes xdm xfs xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xtdesktop xvfb ||
+|| X || x-window-system xchat xchat-common xchat-text xcursor-themes xdm xfs xfonts-75dpi xfonts-scalable xfwp xine-ui xml-core xmms xmms-kjofol xmms-kjofol-skins xprint xprint-common xprt xprt-xprintorg xserver-common xtdesktop xvfb ||
 || Z  || zip ||
 
 == Etch ==
