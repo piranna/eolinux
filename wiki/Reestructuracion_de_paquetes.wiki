@@ -85,4 +85,4 @@ Paquetes a eliminar de Xebian que no son en absoluto necesarios excepto en casos
 
 || *Actual* || *Propuesto* ||
 || *fluxbox* fluxbox-theme-xebian || *matchbox-window-manager* libmatchbox1 libstartup-notification0 ||
-|| *xvkbd* || *matchbox-keyboard* libfakekey0 ||
+|| *xvkbd* xaw3dg || *matchbox-keyboard* libfakekey0 ||
