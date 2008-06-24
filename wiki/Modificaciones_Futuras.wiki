@@ -29,3 +29,4 @@ Modificaciones y optimizaciones a realizar
 || Init en paralelo || || Cambiar en /etc/init.d la linea "startup $i start" por "startup $i start &", aunque con tan pocos servicios y con dash quizas no haga falta o no funcione ||
 || Eliminar xfs en Etch || Hecho || dpkg-reconfigure -phigh xserver-xorg, usa /etc/X11/xorg.conf en lugar de /etc/X11/XF86cfg-4 ||
 || Poner barra de scroll en xterm || || http://web.mit.edu/answers/xwindows/xwindows_scrollbar.html pero falla :-( ||
+|| Usar ntpdate en lugar de ntp || || ||
